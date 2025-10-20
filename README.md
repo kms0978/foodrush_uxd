@@ -22,6 +22,7 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 - [7. Surface](#7-Surface)
     - [7.1. Interface Evolution](#71-Interface-Evolution)
     - [7.2. High Definition Interfaces](#72-high-definition-interfaces)
+- [8. Annex](#8-Annex)
 
 ---
 
@@ -401,27 +402,27 @@ A complete set of resources and documentation for the project is available below
 
 This section provides direct access to all detailed PDF documents organized by project phase and section. Each document contains comprehensive information and visual materials supporting the design process.
 
-### 3. Strategy Documents
-- 📄 **[Value Proposition Canvas - FoodRush](assets/Value_Proposition_Canvas.png)**  
+### 1. Strategy Documents
+- 📄 **[Value Proposition Canvas - FoodRush](docs/value-prop-canvas-foodrush.pdf)**  
   Detailed analysis of user pains, gains, and our value proposition alignment
-- 📄 **[UX Personas - FoodRush](docs/UX Personas.pdf)**  
+- 📄 **[UX Personas - FoodRush](docs/ux-personas-foodrush.pdf)**  
   Complete user personas with detailed profiles, needs, and behaviors
-- 📄 **[Benchmarking Analysis - FoodRush](assets/Benchmarking.png)**  
+- 📄 **[Benchmarking Analysis - FoodRush](docs/benchmarking-foodrush.pdf)**  
   Comprehensive competitive analysis and market positioning
 
-### 4. Scope Documents
-- 📄 **[Customer Journey Map - FoodRush](assets/Customer_Journey_Map.png)**  
+### 2. Scope Documents
+- 📄 **[Customer Journey Map - FoodRush](docs/customer-journey-map-foodrush.pdf)**  
   Detailed user journey mapping across all touchpoints and interactions
 
-### 5. Structure Documents
-- 📄 **[Sitemap - FoodRush](assets/Sitemap.png)**  
+### 3. Structure Documents
+- 📄 **[Sitemap - FoodRush](docs/sitemap-foodrush.pdf)**  
   Complete information architecture and navigation structure
 
-### 6. Skeleton Documents
+### 4. Skeleton Documents
 - 📄 **[Low-Fi Wireframes - FoodRush](docs/wireframes-foodrush.pdf)**  
   Complete set of low-fidelity wireframes for all main interfaces
 
-### 7. Surface Documents
+### 5. Surface Documents
 - 📄 **[Hi-Fi Interfaces - FoodRush](docs/hi-fi-interfaces-foodrush.pdf)**  
   Final high-fidelity interface designs with visual style and interactions
 
