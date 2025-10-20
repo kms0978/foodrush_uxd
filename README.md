@@ -381,6 +381,13 @@ The final interface set includes addicional designs for the application's onboar
   <img src="./assets/8-2%20User%20Personal%20Info.png" alt="High-Fidelity Home Interface" width="48%"/>
 </div>
 
+**Project Resources**
+
+The final high-definition interfaces and navigable prototype encompass the complete user experience for FoodRush. These resources detail the finished visual style, interaction patterns, and comprehensive screen layouts.
+
+A complete set of resources and documentation for the project is available below:
+
+
 
 - 📁 **[Hi-Fi Interfaces Workspace – FoodRush (Figma)](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1)**  
   Final high-fidelity interface designs available in the shared Figma workspace.
