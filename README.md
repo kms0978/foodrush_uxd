@@ -392,7 +392,7 @@ A complete set of resources and documentation for the project is available below
 
 - 📁 **[Hi-Fi Interfaces Workspace – FoodRush (Figma)](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1)**  
   Final high-fidelity interface designs available in the shared Figma workspace.
-- 📁 **[Hi-Fi Prototype – FoodRush (Figma)](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=113-461&t=baXchoLeGoMM5Cs9-1)**  
+- 📁 **[Hi-Fi Prototype – FoodRush (Figma)](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=14-1464&t=GQMdMsdWHiVXJtkq-1)**  
   Final high-fidelity prototype available in the shared Figma workspace.
 - 📄 **[Hi-Fi Interfaces – FoodRush (PDF)](docs/hi-fi-interfaces-foodrush.pdf)**  
   PDF version containing the full set of final interfaces, including visual styles and interaction details.
