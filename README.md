@@ -397,3 +397,32 @@ A complete set of resources and documentation for the project is available below
   PDF version containing the full set of final interfaces, including visual styles and interaction details.
 
 ---
+## 8. Annex
+
+This section provides direct access to all detailed PDF documents organized by project phase and section. Each document contains comprehensive information and visual materials supporting the design process.
+
+### 3. Strategy Documents
+- 📄 **[Value Proposition Canvas - FoodRush](assets/Value_Proposition_Canvas.png)**  
+  Detailed analysis of user pains, gains, and our value proposition alignment
+- 📄 **[UX Personas - FoodRush](docs/UX Personas.pdf)**  
+  Complete user personas with detailed profiles, needs, and behaviors
+- 📄 **[Benchmarking Analysis - FoodRush](assets/Benchmarking.png)**  
+  Comprehensive competitive analysis and market positioning
+
+### 4. Scope Documents
+- 📄 **[Customer Journey Map - FoodRush](assets/Customer_Journey_Map.png)**  
+  Detailed user journey mapping across all touchpoints and interactions
+
+### 5. Structure Documents
+- 📄 **[Sitemap - FoodRush](assets/Sitemap.png)**  
+  Complete information architecture and navigation structure
+
+### 6. Skeleton Documents
+- 📄 **[Low-Fi Wireframes - FoodRush](docs/wireframes-foodrush.pdf)**  
+  Complete set of low-fidelity wireframes for all main interfaces
+
+### 7. Surface Documents
+- 📄 **[Hi-Fi Interfaces - FoodRush](docs/hi-fi-interfaces-foodrush.pdf)**  
+  Final high-fidelity interface designs with visual style and interactions
+
+---
