@@ -29,9 +29,9 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 ## 1. Introduction
 
 ### 1.1. **The Problem**
-University students often face long waiting lines at campus cafeterias during 
-peak hours and also students often have **tight schedules** — juggling classes, projects, 
-and extracurriculars leaves them with very limited time to eat.. This leads to frustration, time loss between classes, and sometimes even skipped meals.
+University students often face long waiting lines at campus cafeterias during peak hours.
+Additionally, students often have **tight schedules** — juggling classes, projects, 
+and extracurriculars leaves them with very limited time to eat. This leads to frustration, wasted time between classes, and sometimes even skipped meals.
 University cafeterias struggle to manage these rush hours efficiently, leading to delays and decreased customer satisfaction.
 
 From the vendor’s perspective, queues cause inefficiency:
@@ -101,7 +101,7 @@ Gonzalo Caniupan - Presenter
 
 ### 3.1. Value Proposition Canvas
 
-*How we aligned university dining needs with our solution  *
+*How we aligned university dining needs with our solution.*
 
 **For Students:**
 - Skip the waiting line — order, pay, and get notified when your meal is ready.
@@ -125,7 +125,7 @@ Most university cafeterias have no integrated system for online payments or digi
 
 ### 3.2. **UX Personas**
 
-This section presents representative user profiles that illustrate the different needs, motivations, and behaviors of our main audience.  
+This section presents representative user profiles that illustrate the different needs, motivations, and behaviors of our main audience.
 These personas help us design user experiences that truly align with the daily routines of students and university staff.
 
 ---
@@ -203,7 +203,7 @@ The app interface is designed to minimize waiting times and ensure a fast, relia
 **Customer Goals**  
 Users want to receive their food quickly and conveniently, without wasting time standing in line. For many students and staff members, time efficiency is the primary motivation for using the app. The decision to use Food Rush comes when they perceive it as a faster, smarter alternative to traditional queues.
 
-![Homepage](./assets/7-1%20Successful%20Purchase.png)
+![Successful Purchase](./assets/7-1%20Successful%20Purchase.png)
 
 **Touchpoints**  
 At this stage, the main touchpoints are the **mobile app interface**, the **payment gateway**, and the **notification system**.
@@ -211,7 +211,7 @@ At this stage, the main touchpoints are the **mobile app interface**, the **paym
 - The **payment gateway** ensures security and compatibility with common payment methods and *Edenred*.
 - The **notification system** informs users when their order is ready, reinforcing reliability and trust.
 
-![Homepage](./assets/2-2%20Billing.png)
+![Billing](./assets/2-2%20Billing.png)
 
 ---
 
@@ -292,9 +292,9 @@ Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quic
 
 
 <div align="center">
-  <img src="./assets/Wireframe-VerProducto-1.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-VerProducto-1.png" alt="Wireframe Initial Homepage Interface" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/1-3%20Homepage.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/1-3%20Homepage.png" alt="High-Fidelity Homepage Interface" width="48%"/>
 </div>
 
 
@@ -303,24 +303,24 @@ Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quic
 Removal of Delivery Time: Since the app focuses on canteen/on-campus ordering, delivery time is often irrelevant or managed through a separate pickup system, so the clock icon was removed for simplicity. Visual Seals: The text "-Sellos Alto en" was replaced with highly visible, standardized seal graphics. Details Section Refinement: The long text list of details was replaced by a concise descriptive line ("Oblea bañada chocolate 29g"), likely pushing extensive nutritional data to a separate, less distracting screen (not shown). Action Button: The black "Agregar al carrito" button was changed to a high-contrast orange button for better visibility and conversion.
 
 <div align="center">
-  <img src="./assets/Wireframe-VerProducto-2.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-VerProducto-2.png" alt="Wireframe Initial Product Details" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/3%20Product%20Details.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/3%20Product%20Details.png" alt="High-Fidelity Product Details" width="48%"/>
 </div>
 
 **Cart and Checkout Evolution**
 
 Reduced Cognitive Load: The final design acts as a gateway; clicking a button (like "Edenred") likely leads to a separate screen for data entry, rather than cluttering the initial checkout screen with fields for RUT, Clave, etc. This is a common and more secure UX pattern. Branding: Payment options now include recognizable logos, building trust.
 <div align="center">
-  <img src="./assets/Wireframe-Pago-1.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-Pago-1.png" alt="Wireframe Initial Cart Listing" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/2-1%20Cart.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/2-1%20Cart.png" alt="High-Fidelity Cart Listing" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/Wireframe-Pago-2.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-Pago-2.png" alt="Wireframe Initial Billing Screen" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/2-2%20Billing.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/2-2%20Billing.png" alt="High-Fidelity Billing Screen" width="48%"/>
 </div>
 
 **Order Receipt and QR Code Evolution**
@@ -329,15 +329,15 @@ Improved Readability: The final design uses clear typography and visual cues (nu
 
 Focus and Speed: For a canteen pickup, the only critical information is the QR code itself. By removing the repetitive date/time/price information, the screen becomes cleaner and the QR code is the sole focus, making the exchange with the vendor faster and error-free. The orange color of the QR code aligns with the app's branding and increases its visual impact.
 <div align="center">
-  <img src="./assets/Wireframe-GenerarComprobante-1.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-GenerarComprobante-1.png" alt="Wireframe Initial Receipt Showcase" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/7-2%20Purchase%20Receipt.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/7-2%20Purchase%20Receipt.png" alt="High-Fidelity Receipt Showcase" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/Wireframe-GenerarComprobante-2.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/Wireframe-GenerarComprobante-2.png" alt="Wireframe Initial Purchase QRCode" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/7-3%20Purchase%20QR%20Code.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/7-3%20Purchase%20QR%20Code.png" alt="High-Fidelity Purchase QRCode" width="48%"/>
 </div>
 
 ***
@@ -352,7 +352,7 @@ The final visual design aimed to create an app that felt fast, trustworthy, and 
 
 ✅ **Simplified Payment Flow:** Moving from an initial flow that exposed sensitive fields (RUT, Clave) on the main payment screen to one that uses large, clean buttons significantly improves security perception and reduces friction.
 
-✅ **Exploration and comparison of options:** Because informed decisions also require concrete data and comparative analysis.
+✅ **Exploration and comparison of options:** The design supports informed decisions by providing concrete data and comparative analysis.
 
 The evolution shows a clear shift from a purely functional structure to a high-fidelity interface prioritizing user experience, visual branding, and regulatory context (food seals).
 ***
@@ -363,23 +363,23 @@ With the functional structure defined by the low-fidelity wireframes and the key
 
 The final interfaces establish the FoodRush brand identity, leveraging a high-contrast orange-and-dark blue palette to ensure accessibility and highlight primary actions like "Add to Cart" and "Pay." The design heavily emphasizes the speed and clarity required for a successful quick-service food ordering app.
 
-The final interface set includes addicional designs for the application's onboarding process, user profile management, and order history tracking, ensuring a comprehensive user experience from first use to regular engagement.:
+The final interface set includes additional designs for the application's onboarding process, user profile management, and order history tracking, ensuring a comprehensive user experience from first use to regular engagement:
 
 <div align="center">
-  <img src="./assets/2-3%20Payment%20Info.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/2-3%20Payment%20Info.png" alt="Payment Info Screen" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/4%20Orders%20Tab.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/4%20Orders%20Tab.png" alt="Orders Tab Screen" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/5%20Bookmarks%20Tab.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/5%20Bookmarks%20Tab.png" alt="Bookmarks Tab" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/6%20Notifications%20Tab.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/6%20Notifications%20Tab.png" alt="Notifications Tab" width="48%"/>
 </div>
 <div align="center">
-  <img src="./assets/8-1%20User%20Profile%20Tab.png" alt="Wireframe Initial Product View" width="48%"/>
+  <img src="./assets/8-1%20User%20Profile%20Tab.png" alt="User Profile Tab" width="48%"/>
   &nbsp; &nbsp; &nbsp;
-  <img src="./assets/8-2%20User%20Personal%20Info.png" alt="High-Fidelity Home Interface" width="48%"/>
+  <img src="./assets/8-2%20User%20Personal%20Info.png" alt="User Personal Info" width="48%"/>
 </div>
 
 **Project Resources**
