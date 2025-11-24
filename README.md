@@ -445,22 +445,23 @@ A complete set of resources and documentation for the project is available below
 
 ---
 
+
 ---
 
-### 8.3. Accessibility & Inclusive Design 
+### 8.3. Accessibility & Inclusive Design ⭐️
 
 The High-Fidelity Interface design for **FoodRush** strictly adhered to accessibility principles (based on WCAG guidelines) to ensure the system is usable by the widest possible range of students and faculty. The design decisions were directly influenced by the heuristic analysis findings regarding visibility and consistency.
 
 | WCAG Principle | Application in FoodRush |
 | :--- | :--- |
-| **Perceptible** | [cite_start]**High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility[cite: 1239]. [cite_start]Crucially, we integrated the **Chilean Nutritional Warning Seals** (Alto en Azúcares, etc.) prominently in the product view[cite: 1032], ensuring users with dietary restrictions can perceive health information instantly without scrolling. |
-| **Operable** | [cite_start]**Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties [cite: 1290][cite_start], we implemented a persistent, large-target bottom navigation bar[cite: 289]. [cite_start]Buttons in the cart (previously inverted) were reordered to standard conventions ( `-` Left / `+` Right) to prevent interaction errors[cite: 1291]. |
-| **Understandable** | [cite_start]**Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) [cite: 1250] with natural language like specific product names or clear quantities. Feedback messages (e.g., "Order Successful") are now immediate and descriptive. |
-| **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. [cite_start]Text resizing is supported by maintaining generous whitespace in the final layout, fixing the clutter issues identified in the early profile screens[cite: 1257]. |
+| **Perceptible** | **High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility. Crucially, we integrated the **Chilean Nutritional Warning Seals** (*Alto en Azúcares*, etc.) prominently in the product view, ensuring users with dietary restrictions can perceive health information instantly without scrolling. |
+| **Operable** | **Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties, we implemented a persistent, large-target bottom navigation bar. Buttons in the cart (previously inverted) were reordered to standard conventions (`-` Left / `+` Right) to prevent interaction errors. |
+| **Understandable** | **Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) with natural language like specific product names or clear quantities. Feedback messages (e.g., "Order Successful") are now immediate and descriptive. |
+| **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. Text resizing is supported by maintaining generous whitespace in the final layout, fixing the clutter issues identified in the early profile screens. |
 
 ---
 
-## 9. Project Closure & Final Conclusion 
+## 9. Project Closure & Final Conclusion ⭐️
 
 This section marks the culmination of Stage 3 and the **final delivery** of the FoodRush UXD project. We have transitioned from abstract problem definition (Strategy) to a fully validated, high-fidelity interactive product (Surface).
 
@@ -468,25 +469,25 @@ This section marks the culmination of Stage 3 and the **final delivery** of the 
 
 To ensure the final design was not just visually appealing but functionally robust, we conducted a Heuristic Evaluation using the **Single Ease Question (SEQ)** metric.
 
-* [cite_start]**SEQ Score Achieved:** **5.2 / 7.0** (Rated: "Somewhat Easy")[cite: 1409].
+* **SEQ Score Achieved:** **5.2 / 7.0** (Rated: "Somewhat Easy").
 * **Interpretation:** While the core flow was functional, the score highlighted friction points that were meticulously polished in this final version.
 
 **Key Iterations based on Data:**
-1.  [cite_start]**Navigation Awareness:** The heuristic report noted a lack of active section indicators[cite: 1290]. The final version now clearly highlights the active tab in the bottom bar (Home/Orders/Profile).
-2.  [cite_start]**Cart Logic:** Evaluation users struggled with the inverted `+ / -` buttons[cite: 1275]. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
-3.  [cite_start]**Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography")[cite: 65]. The final profile is strictly functional, focusing on Payment Methods and Order History.
+1.  **Navigation Awareness:** The heuristic report noted a lack of active section indicators. The final version now clearly highlights the active tab in the bottom bar (Home/Orders/Profile).
+2.  **Cart Logic:** Evaluation users struggled with the inverted `+ / -` buttons. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
+3.  **Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography"). The final profile is strictly functional, focusing on Payment Methods and Order History.
 
 ### 9.2. Interface Evolution: Before vs. After
 
 The evolution from *Advance 1* to the *Final Version* represents a shift from a low-fidelity functional wireframe to a branded, user-centric product.
 
-| Feature |  Alpha Version (Advance 1) |  Final Version (Stage 3) |
+| Feature | ❌ Alpha Version (Advance 1) | ✅ Final Version (Stage 3) |
 | :--- | :--- | :--- |
-| **Onboarding** | [cite_start]Generic "Log In" text buttons with no context[cite: 75]. | [cite_start]**Branded Onboarding:** Complete flow with role selection (Client vs. Merchant) and Google integration[cite: 284, 418]. |
+| **Onboarding** | Generic "Log In" text buttons with no context. | **Branded Onboarding:** Complete flow with role selection (Client vs. Merchant) and Google integration. |
 | **Visual Identity** | Generic layout, inconsistencies in spacing and button hierarchy. | **FoodRush Branding:** Consistent use of rounded UI cards, shadow depth, and the signature Orange/Blue palette throughout. |
-| **Product Detail** | Text-heavy list of nutritional details. | [cite_start]**Visual & Regulatory Compliance:** Integration of graphical "Warning Seals" [cite: 1032] and clear "Add to Cart" CTA. |
-| **Payments** | Basic placeholders for card entry. | [cite_start]**Edenred Integration:** A dedicated, secure flow for student benefit cards (Junaeb/Edenred) with optimized input fields[cite: 643]. |
-| **Order Tracking** | Static text lists. | [cite_start]**Interactive States:** Clear visual timeline (Receiving -> Preparing -> Ready) using a QR code system for pickup[cite: 655]. |
+| **Product Detail** | Text-heavy list of nutritional details. | **Visual & Regulatory Compliance:** Integration of graphical "Warning Seals" and clear "Add to Cart" CTA. |
+| **Payments** | Basic placeholders for card entry. | **Edenred Integration:** A dedicated, secure flow for student benefit cards (Junaeb/Edenred) with optimized input fields. |
+| **Order Tracking** | Static text lists. | **Interactive States:** Clear visual timeline (Receiving -> Preparing -> Ready) using a QR code system for pickup. |
 
 ### 9.3. Final Project Deliverables
 
@@ -498,7 +499,6 @@ The FoodRush project is now ready for the development hand-off. The following re
 | **Production Interfaces** | Full source files with assets and design specs. | [Link to Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?node-id=223-896&t=IHMX60HdX5duTUlZ-1) |
 | **Final Documentation (PDF)** | Comprehensive compilation of High-Fidelity interfaces. | 📄 **[Final FoodRush Project Advances (PDF)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)** |
 
----
 ---
 
 ## 10. Annexes and Documentation 
@@ -528,3 +528,5 @@ This section provides direct access to all detailed documents, including evaluat
 ### 4. Surface Documents
 - 📄 **[Hi-Fi Interfaces - FoodRush (Advance 1)](docs/Proyecto%20FoodRush%20Avance%201.pdf)**
     High-fidelity interfaces from the first delivery.
+- 📄 **[Hi-Fi Interfaces - FoodRush (Advance 2)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)**
+    Final High-fidelity interfaces from the last delivery.
