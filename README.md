@@ -52,7 +52,7 @@ Food Rush is a digital ordering system that lets students buy food directly from
 
 It connects students, university cafeterias, and eventually local restaurants near campus through a single, easy-to-use ecosystem.
 
-#### **🌐 Key Features**
+#### ** Key Features**
 
 - Mobile Ordering: Place and pay for your meal from your phone.
 - Smart Notifications: Receive alerts when your order is ready for pickup.
@@ -111,7 +111,7 @@ Gonzalo Caniupan - Presenter
 - Access real-time menu updates and stock, promotions, and estimated preparation times.
 - Enjoy a seamless experience through a modern, intuitive mobile interface.
 
-### 🧩 3.1.1 Identified Gaps
+### 3.1.1 Identified Gaps
 
 **Operational:**  
 Manual ordering processes cause bottlenecks, miscommunication, and longer wait times.
@@ -133,13 +133,13 @@ These personas help us design user experiences that truly align with the daily r
 
 ---
 
-👥🔹 **Mauricio Valenzuela**  
+🔹 **Mauricio Valenzuela**  
 *"Between classes and research, I sometimes just want to grab something quick."*
 
-👥🔹 **Cristian Riquelme**  
+🔹 **Cristian Riquelme**  
 *"Waiting in line takes away my study time and can make me late for class."*
 
-👥🔹 **Lorena Pérez**  
+🔹 **Lorena Pérez**  
 *"I’d love an app that helps me eat what I want without wasting time."*
 
 ---
@@ -161,13 +161,13 @@ The objective was to identify **functional and visual strengths** across similar
 
 #### Types of platforms analyzed
 
-- 🍔 **Direct competitor:**  
+-  **Direct competitor:**  
   **PedidosYa** — Although it’s a leading food delivery app in Latin America, it is not tailored to the university environment. It focuses on full delivery services rather than quick on-campus pickup experiences.
 
-- ⚖️ **Visual comparison tools:**  
+-  **Visual comparison tools:**  
   **Rappi** and **Uber Eats** — Both platforms provide highly optimized interfaces for browsing and comparing food options quickly. Their order-tracking flows, restaurant categorization, and clean layouts served as valuable references for usability and interaction design.
 
-- 🖼️ **Aesthetic references:**  
+-  **Aesthetic references:**  
   **Rappi** and **PedidosYa** — Both apps inspired the visual direction of Food Rush, particularly their use of vibrant color palettes, rounded UI elements, and iconography that communicates speed and convenience.
 
 ---
@@ -227,7 +227,7 @@ The structure prioritizes clarity and quick access to key features, ensuring tha
 
 ---
 
-#### 🧭 Key Sections:
+####  Key Sections:
 
 - **Profile:**  
   Users can manage personal data, configure payment methods (including Edenred), and customize app preferences.
@@ -249,7 +249,7 @@ The structure prioritizes clarity and quick access to key features, ensuring tha
 
 ---
 
-#### ⚙️ Accessibility and Flow
+####  Accessibility and Flow
 
 - The user journey begins with **Registration** or **Login**, leading directly to the **Home** interface.
 - From there, users can seamlessly navigate across main modules without leaving the home environment.
@@ -280,7 +280,7 @@ PDF version of the entire initial wireframe set, covering all main interface scr
 
 ---
 
-## 7. Evaluation and Adjustments (Final Stage) ⭐️
+## 7. Evaluation and Adjustments (Final Stage) 
 
 This section documents the design validation process, presenting the results of the heuristic evaluation of the previous version and explicitizing the traceability of changes made in response to the feedback obtained.
 
@@ -501,7 +501,7 @@ The FoodRush project is now ready for the development hand-off. The following re
 ---
 ---
 
-## 10. Annexes and Documentation ⭐️
+## 10. Annexes and Documentation 
 
 This section provides direct access to all detailed documents, including evaluation reports and progress from previous stages.
 
