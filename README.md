@@ -6,7 +6,7 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 - [1. Introduction](#1-introduction)
     - [1.1. The Problem](#11-the-problem)
     - [1.2. Our Solution](#12-our-solution)
-    - [1.3. Food Rush](#13-FoodRush)
+    - [1.3. FoodRush](#13-foodrush)
 - [2. Team & Roles](#2-team--roles)
 - [3. Strategy](#3-strategy)
     - [3.1. Value Proposition Canvas](#31-value-proposition-canvas)
@@ -18,16 +18,16 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 - [5. Structure](#5-structure)
     - [5.1. Navigation Flow](#51-navigation-flow)
 - [6. Skeleton](#6-skeleton)
-    - [6.1. Low-Fi Wireframes](#61-Low-fidelity-wireframes)
-- [7. Evaluación y Ajustes (Etapa Final)](#7-evaluacion-y-ajustes-etapa-final)
-    - [7.1. Resultados de Evaluación Heurística y SEQ](#71-resultados-de-evaluacion-heuristica-y-seq)
-    - [7.2. Trazabilidad de Cambios y Retroalimentación](#72-trazabilidad-de-cambios-y-retroalimentación)
+    - [6.1. Low-fidelity wireframes](#61-low-fidelity-wireframes)
+- [7. Evaluation and Adjustments (Final Stage)](#7-evaluation-and-adjustments-final-stage)
+    - [7.1. Heuristic Evaluation and SEQ Results](#71-heuristic-evaluation-and-seq-results)
+    - [7.2. Change Traceability and Feedback](#72-change-traceability-and-feedback)
 - [8. Surface](#8-surface)
     - [8.1. Interface Evolution](#81-interface-evolution)
     - [8.2. High Definition Interfaces](#82-high-definition-interfaces)
-    - [8.3. Temáticas de Accesibilidad (Diseño Inclusivo)](#83-tematicas-de-accesibilidad-diseño-inclusivo)
-- [9. Cierre de Proyecto y Conclusión Final](#9-cierre-de-proyecto-y-conclusion-final)
-- [10. Anexos y Documentación](#10-anexos-y-documentacion)
+    - [8.3. Accessibility & Inclusive Design](#83-accessibility--inclusive-design)
+- [9. Project Closure & Final Conclusion](#9-project-closure--final-conclusion)
+- [10. Annexes and Documentation](#10-annexes-and-documentation)
 
 ---
 
@@ -290,7 +290,7 @@ To validate the initial version of the prototype and justify the final modificat
 
 #### **SEQ Evaluation (Single Ease Question)**
 
-[cite_start]The main task of "Buying Food" yielded an **average SEQ score of 5.2** (on a scale of 1 to 7)[cite: 1337].
+The main task of "Buying Food" yielded an **average SEQ score of 5.2** (on a scale of 1 to 7).
 
 | Score | Perception |
 | :---: | :---: |
@@ -314,10 +314,10 @@ Below is a summary of the most significant adjustments and their origin:
 
 | Adjustment Area | Iteration Description | Feedback Origin |
 | :--- | :--- | :--- |
-| **Payment Flow (Edenred)** | [cite_start]The payment interface was redesigned to optimize the order of fields (RUT, Dynamic Key) and space usage was resolved, improving readability[cite: 1393]. | (Peer Feedback) |
-| **Identity and Context** | [cite_start]Irrelevant data (age, biography) was removed from the user profile and the focus was adjusted to the unique functionality (not being a simplified Rappi), emphasizing **localization within UFRO** and the pickup system[cite: 1350, 1412]. | (Professor Suggestions) |
-| **Shopping Experience** | The **order number** and **pickup location** were added to the confirmation/QR screen, eliminating ambiguity about where and what to pick up. [cite_start]Typography sizes were adjusted to prioritize critical information[cite: 1395, 1396]. | (Peer Feedback) |
-| **Interface Usability** | The *Home* and product detail screens were refined, optimizing whitespace and improving the visualization of **Warning Seals**. [cite_start]The use of the favorites button was unified[cite: 1359, 1384, 1417]. | (Heuristic Evaluation/Peer Feedback) |
+| **Payment Flow (Edenred)** | The payment interface was redesigned to optimize the order of fields (RUT, Dynamic Key) and space usage was resolved, improving readability. | (Peer Feedback) |
+| **Identity and Context** | Irrelevant data (age, biography) was removed from the user profile and the focus was adjusted to the unique functionality (not being a simplified Rappi), emphasizing **localization within UFRO** and the pickup system. | (Professor Suggestions) |
+| **Shopping Experience** | The **order number** and **pickup location** were added to the confirmation/QR screen, eliminating ambiguity about where and what to pick up. Typography sizes were adjusted to prioritize critical information. | (Peer Feedback) |
+| **Interface Usability** | The *Home* and product detail screens were refined, optimizing whitespace and improving the visualization of **Warning Seals**. The use of the favorites button was unified. | (Heuristic Evaluation/Peer Feedback) |
 
 **Complete Traceability Document:**
 - 📄 **[List of Suggested Improvements (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
@@ -455,7 +455,7 @@ The High-Fidelity Interface design for **FoodRush** strictly adhered to accessib
 | WCAG Principle | Application in FoodRush |
 | :--- | :--- |
 | **Perceptible** | **High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility. Crucially, we integrated the **Chilean Nutritional Warning Seals** (*Alto en Azúcares*, etc.) prominently in the product view, ensuring users with dietary restrictions can perceive health information instantly without scrolling. |
-| **Operable** | **Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties, we implemented a persistent, large-target bottom navigation bar. Buttons in the cart (previously inverted) were reordered to standard conventions (`-` Left / `+` Right) to prevent interaction errors. |
+| **Operable** | **Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties, we implemented a persistent, large-target bottom navigation bar. Buttons in the cart (previously inverted) were reordered to standard conventions (- Left / + Right) to prevent interaction errors. |
 | **Understandable** | **Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) with natural language like specific product names or clear quantities. Feedback messages (e.g., "Order Successful") are now immediate and descriptive. |
 | **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. Text resizing is supported by maintaining generous whitespace in the final layout, fixing the clutter issues identified in the early profile screens. |
 
@@ -474,7 +474,7 @@ To ensure the final design was not just visually appealing but functionally robu
 
 **Key Iterations based on Data:**
 1.  **Navigation Awareness:** The heuristic report noted a lack of active section indicators. The final version now clearly highlights the active tab in the bottom bar (Home/Orders/Profile).
-2.  **Cart Logic:** Evaluation users struggled with the inverted `+ / -` buttons. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
+2.  **Cart Logic:** Evaluation users struggled with the inverted + / - buttons. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
 3.  **Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography"). The final profile is strictly functional, focusing on Payment Methods and Order History.
 
 ### 9.2. Interface Evolution: Before vs. After
