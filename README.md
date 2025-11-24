@@ -4,25 +4,30 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 ## Index
 
 - [1. Introduction](#1-introduction)
-    - [1.1. The Problem](#11-the-problem)
-    - [1.2. Our Solution](#12-our-solution)
-    - [1.3. Food Rush](#13-FoodRush)
+    - [1.1. The Problem](#11-the-problem)
+    - [1.2. Our Solution](#12-our-solution)
+    - [1.3. Food Rush](#13-FoodRush)
 - [2. Team & Roles](#2-team--roles)
 - [3. Strategy](#3-strategy)
-    - [3.1. Value Proposition Canvas](#31-value-proposition-canvas)
-    - [3.2. UX Personas](#32-ux-personas)
-    - [3.3. Benchmarking](#33-benchmarking)
+    - [3.1. Value Proposition Canvas](#31-value-proposition-canvas)
+    - [3.2. UX Personas](#32-ux-personas)
+    - [3.3. Benchmarking](#33-benchmarking)
 - [4. Scope](#4-scope)
-    - [4.1 Customer Journey Map](#41-customer-journey-map)
-        - [4.1.1 Decision Stage Interfaces](#411-decision-stage-interfaces)
+    - [4.1 Customer Journey Map](#41-customer-journey-map)
+        - [4.1.1 Decision Stage Interfaces](#411-decision-stage-interfaces)
 - [5. Structure](#5-structure)
-    - [5.1. Navigation Flow](#51-navigation-flow)
+    - [5.1. Navigation Flow](#51-navigation-flow)
 - [6. Skeleton](#6-skeleton)
-    - [6.1. Low-Fi Wireframes](#61-Low-fidelity-wireframes)
-- [7. Surface](#7-Surface)
-    - [7.1. Interface Evolution](#71-Interface-Evolution)
-    - [7.2. High Definition Interfaces](#72-high-definition-interfaces)
-- [8. Annex](#8-Annex)
+    - [6.1. Low-Fi Wireframes](#61-Low-fidelity-wireframes)
+- [7. Evaluación y Ajustes (Etapa Final)](#7-evaluacion-y-ajustes-etapa-final) ⭐️ NUEVA SECCIÓN
+    - [7.1. Resultados de Evaluación Heurística y SEQ](#71-resultados-de-evaluacion-heuristica-y-seq)
+    - [7.2. Trazabilidad de Cambios y Retroalimentación](#72-trazabilidad-de-cambios-y-retroalimentacion)
+- [8. Surface](#8-surface) 
+    - [8.1. Interface Evolution](#81-interface-evolution)
+    - [8.2. High Definition Interfaces](#82-high-definition-interfaces)
+    - [8.3. Temáticas de Accesibilidad (Diseño Inclusivo)](#83-tematicas-de-accesibilidad-diseño-inclusivo) ⭐️ NUEVA SUBSECCIÓN
+- [9. Cierre de Proyecto y Conclusión Final](#9-cierre-de-proyecto-y-conclusion-final) ⭐️ NUEVA SECCIÓN
+- [10. Anexos y Documentación](#10-anexos-y-documentacion) ⭐️ (ANTIGUO 8. ANNEX)
 
 ---
 
@@ -30,7 +35,7 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
 
 ### 1.1. **The Problem**
 University students often face long waiting lines at campus cafeterias during peak hours.
-Additionally, students often have **tight schedules** — juggling classes, projects, 
+Additionally, students often have **tight schedules** — juggling classes, projects, 
 and extracurriculars leaves them with very limited time to eat. This leads to frustration, wasted time between classes, and sometimes even skipped meals.
 University cafeterias struggle to manage these rush hours efficiently, leading to delays and decreased customer satisfaction.
 
@@ -38,8 +43,6 @@ From the vendor’s perspective, queues cause inefficiency:
 
 - Limited order throughput during rush hours.
 - Manual payment handling that slows down service.
-
-
 
 This highlights a clear opportunity for a platform that improves both the user experience for students and the operational flow for campus food vendors. The app can also be used by faculty members who want to pre-order meals between classes or during meetings, further expanding its utility.
 
@@ -110,13 +113,13 @@ Gonzalo Caniupan - Presenter
 
 ### 🧩 3.1.1 Identified Gaps
 
-**Operational:**  
+**Operational:**  
 Manual ordering processes cause bottlenecks, miscommunication, and longer wait times.
 
-**User Experience:**  
+**User Experience:**  
 Students waste time in lines and lack visibility over order status or preparation time.
 
-**Technological:**  
+**Technological:**  
 Most university cafeterias have no integrated system for online payments or digital queues.
 
 ![Value Proposition Canvas](./assets/Value_Proposition_Canvas.png)
@@ -130,13 +133,13 @@ These personas help us design user experiences that truly align with the daily r
 
 ---
 
-👥🔹 **Mauricio Valenzuela**  
+👥🔹 **Mauricio Valenzuela**  
 *"Between classes and research, I sometimes just want to grab something quick."*
 
-👥🔹 **Cristian Riquelme**  
+👥🔹 **Cristian Riquelme**  
 *"Waiting in line takes away my study time and can make me late for class."*
 
-👥🔹 **Lorena Pérez**  
+👥🔹 **Lorena Pérez**  
 *"I’d love an app that helps me eat what I want without wasting time."*
 
 ---
@@ -158,14 +161,14 @@ The objective was to identify **functional and visual strengths** across similar
 
 #### Types of platforms analyzed
 
-- 🍔 **Direct competitor:**  
-  **PedidosYa** — Although it’s a leading food delivery app in Latin America, it is not tailored to the university environment. It focuses on full delivery services rather than quick on-campus pickup experiences.
+- 🍔 **Direct competitor:**  
+  **PedidosYa** — Although it’s a leading food delivery app in Latin America, it is not tailored to the university environment. It focuses on full delivery services rather than quick on-campus pickup experiences.
 
-- ⚖️ **Visual comparison tools:**  
-  **Rappi** and **Uber Eats** — Both platforms provide highly optimized interfaces for browsing and comparing food options quickly. Their order-tracking flows, restaurant categorization, and clean layouts served as valuable references for usability and interaction design.
+- ⚖️ **Visual comparison tools:**  
+  **Rappi** and **Uber Eats** — Both platforms provide highly optimized interfaces for browsing and comparing food options quickly. Their order-tracking flows, restaurant categorization, and clean layouts served as valuable references for usability and interaction design.
 
-- 🖼️ **Aesthetic references:**  
-  **Rappi** and **PedidosYa** — Both apps inspired the visual direction of Food Rush, particularly their use of vibrant color palettes, rounded UI elements, and iconography that communicates speed and convenience.
+- 🖼️ **Aesthetic references:**  
+  **Rappi** and **PedidosYa** — Both apps inspired the visual direction of Food Rush, particularly their use of vibrant color palettes, rounded UI elements, and iconography that communicates speed and convenience.
 
 ---
 
@@ -194,18 +197,18 @@ These stages reflect the complete journey — from first contact to long-term pe
 
 #### 4.1.1. Decision Stage Interfaces
 
-**Customer Activities**  
-During the **Decision** stage, users actively interact with the app: browsing menus, selecting items, and placing an order. They use features such as product filtering, payment options (including *Edenred*), and real-time notifications when their order is ready.  
+**Customer Activities**  
+During the **Decision** stage, users actively interact with the app: browsing menus, selecting items, and placing an order. They use features such as product filtering, payment options (including *Edenred*), and real-time notifications when their order is ready.  
 The app interface is designed to minimize waiting times and ensure a fast, reliable pickup experience.
 
 ![Homepage](./assets/1-3%20Homepage.png)
 
-**Customer Goals**  
+**Customer Goals**  
 Users want to receive their food quickly and conveniently, without wasting time standing in line. For many students and staff members, time efficiency is the primary motivation for using the app. The decision to use Food Rush comes when they perceive it as a faster, smarter alternative to traditional queues.
 
 ![Successful Purchase](./assets/7-1%20Successful%20Purchase.png)
 
-**Touchpoints**  
+**Touchpoints**  
 At this stage, the main touchpoints are the **mobile app interface**, the **payment gateway**, and the **notification system**.
 - The **app interface** focuses on simplicity and clarity.
 - The **payment gateway** ensures security and compatibility with common payment methods and *Edenred*.
@@ -219,30 +222,30 @@ At this stage, the main touchpoints are the **mobile app interface**, the **paym
 
 ### 5.1. Navigation Flow
 
-The **Food Rush** navigation flow was designed to provide a fast, intuitive, and user-centered experience, reducing waiting times and unnecessary steps during the ordering process.  
+The **Food Rush** navigation flow was designed to provide a fast, intuitive, and user-centered experience, reducing waiting times and unnecessary steps during the ordering process.  
 The structure prioritizes clarity and quick access to key features, ensuring that both students and university staff can order food effortlessly from their mobile devices.
 
 ---
 
 #### 🧭 Key Sections:
 
-- **Profile:**  
-  Users can manage personal data, configure payment methods (including Edenred), and customize app preferences.
+- **Profile:**  
+  Users can manage personal data, configure payment methods (including Edenred), and customize app preferences.
 
-- **Search Products:**  
-  Allows users to explore available meals, view product details, read reviews, and filter by options eligible for Edenred or other payment types.
+- **Search Products:**  
+  Allows users to explore available meals, view product details, read reviews, and filter by options eligible for Edenred or other payment types.
 
-- **Cart:**  
-  Users can review their selected products, choose a payment method, and confirm the order.
+- **Cart:**  
+  Users can review their selected products, choose a payment method, and confirm the order.
 
-- **Orders:**  
-  Displays details of past orders, helping users reorder their favorites or check transaction records.
+- **Orders:**  
+  Displays details of past orders, helping users reorder their favorites or check transaction records.
 
-- **Favorites:**  
-  Provides quick access to saved meals or frequently purchased products.
+- **Favorites:**  
+  Provides quick access to saved meals or frequently purchased products.
 
-- **Notifications:**  
-  Keeps users informed about order status updates, promotions, and ready-for-pickup alerts.
+- **Notifications:**  
+  Keeps users informed about order status updates, promotions, and ready-for-pickup alerts.
 
 ---
 
@@ -272,14 +275,58 @@ In the early iterations, the interfaces were initially organized into three main
 - Interfaces related to Menu/Food Item Selection.
 - Interfaces related to Order Status and History.
 
-📄 **[Low-Fi Wireframes – FoodRush (PDF)](docs/wireframes-foodrush.pdf)**  
+📄 **[Low-Fi Wireframes – FoodRush (PDF)](docs/wireframes-foodrush.pdf)**  
 PDF version of the entire initial wireframe set, covering all main interface screens from the early design phase.
 
 ---
 
-## 7. Surface
+## 7. Evaluación y Ajustes (Etapa Final) ⭐️
 
-### 7.1. Interface Evolution
+Esta sección documenta el proceso de validación del diseño, presentando los resultados de la evaluación heurística de la versión anterior y explicitando la trazabilidad de los cambios realizados en respuesta a la retroalimentación obtenida.
+
+### 7.1. Resultados de Evaluación Heurística y SEQ
+
+Para validar la versión inicial del prototipo y justificar las modificaciones finales, se realizó una **Evaluación Heurística** y un test de usabilidad para medir la Satisfacción de Experiencia (SEQ).
+
+#### **Evaluación SEQ (Satisfacción de Experiencia)**
+
+La tarea principal de "Comprar Comida" arrojó un puntaje **SEQ promedio de 5.2** (en una escala de 1 a 7).
+
+| Puntaje | Percepción |
+| :---: | :---: |
+| 5.2 | Algo Fácil |
+
+Este resultado indica que los usuarios consideraron la tarea "algo fácil" de completar. La justificación del informe identificó aspectos clave de mejora que se abordaron en la versión final (Sección 8.2), incluyendo:
+1.  **Claridad Visual:** Mejorar la distinción de los botones principales y de acción.
+2.  **Flujo de Pago:** Optimizar el orden y la disposición de los elementos en la pantalla de pago.
+3.  **Retroalimentación:** Agregar confirmaciones visuales inmediatas para acciones críticas (ej. Agregar al Carrito, Compra Exitosa).
+
+#### **Documento de Referencia**
+- 📄 **[Informe Completo de Evaluación Heurística (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
+
+---
+
+### 7.2. Trazabilidad de Cambios y Retroalimentación
+
+La versión final del proyecto incorpora la totalidad de las mejoras sugeridas por el profesor, la retroalimentación cruzada y los ayudantes. Este proceso de iteración asegura que la solución aborde directamente los problemas identificados en las etapas de evaluación.
+
+A continuación, se resumen los ajustes más significativos y su origen:
+
+| Área de Ajuste | Descripción de la Iteración | Origen de la Retroalimentación |
+| :--- | :--- | :--- |
+| **Flujo de Pago (Edenred)** | Se rediseñó la interfaz de pago para optimizar el orden de los campos (RUT, Clave Dinámica) y se resolvió el uso de espacio, mejorando la legibilidad. | (Retroalimentación Cruzada) |
+| **Identidad y Contexto** | Se eliminaron datos irrelevantes (edad, biografía) del perfil de usuario y se ajustó el enfoque a la funcionalidad única (no ser un Rappi simplificado), enfatizando la **localización en UFRO** y el sistema de retiro. | (Sugerencias Profesor) |
+| **Experiencia de Compra** | Se agregó el **número de orden** y el **lugar de retiro** en la pantalla de confirmación/QR, eliminando la ambigüedad de dónde y qué retirar. Se ajustaron tamaños de tipografía para priorizar información crítica. | (Retroalimentación Cruzada) |
+| **Usabilidad de la Interfaz** | Se refinó la *Home* y el detalle de producto, optimizando el espacio en blanco y mejorando la visualización de los **Sellos de Advertencia**. Se unificó el uso del botón de favoritos. | (Evaluación Heurística/Cruzada) |
+
+**Documento de Trazabilidad Completa:**
+- 📄 **[Listado de Mejoras Sugeridas (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
+
+---
+
+## 8. Surface
+
+### 8.1. Interface Evolution
 
 ## Interface Evolution Process: Explanations and Key Reasons for Modifications
 
@@ -292,9 +339,9 @@ Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quic
 
 
 <div align="center">
-  <img src="./assets/Wireframe-VerProducto-1.png" alt="Wireframe Initial Homepage Interface" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/1-3%20Homepage.png" alt="High-Fidelity Homepage Interface" width="48%"/>
+  <img src="./assets/Wireframe-VerProducto-1.png" alt="Wireframe Initial Homepage Interface" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/1-3%20Homepage.png" alt="High-Fidelity Homepage Interface" width="48%"/>
 </div>
 
 
@@ -303,24 +350,24 @@ Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quic
 Removal of Delivery Time: Since the app focuses on canteen/on-campus ordering, delivery time is often irrelevant or managed through a separate pickup system, so the clock icon was removed for simplicity. Visual Seals: The text "-Sellos Alto en" was replaced with highly visible, standardized seal graphics. Details Section Refinement: The long text list of details was replaced by a concise descriptive line ("Oblea bañada chocolate 29g"), likely pushing extensive nutritional data to a separate, less distracting screen (not shown). Action Button: The black "Agregar al carrito" button was changed to a high-contrast orange button for better visibility and conversion.
 
 <div align="center">
-  <img src="./assets/Wireframe-VerProducto-2.png" alt="Wireframe Initial Product Details" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/3%20Product%20Details.png" alt="High-Fidelity Product Details" width="48%"/>
+  <img src="./assets/Wireframe-VerProducto-2.png" alt="Wireframe Initial Product Details" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/3%20Product%20Details.png" alt="High-Fidelity Product Details" width="48%"/>
 </div>
 
 **Cart and Checkout Evolution**
 
 Reduced Cognitive Load: The final design acts as a gateway; clicking a button (like "Edenred") likely leads to a separate screen for data entry, rather than cluttering the initial checkout screen with fields for RUT, Clave, etc. This is a common and more secure UX pattern. Branding: Payment options now include recognizable logos, building trust.
 <div align="center">
-  <img src="./assets/Wireframe-Pago-1.png" alt="Wireframe Initial Cart Listing" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/2-1%20Cart.png" alt="High-Fidelity Cart Listing" width="48%"/>
+  <img src="./assets/Wireframe-Pago-1.png" alt="Wireframe Initial Cart Listing" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/2-1%20Cart.png" alt="High-Fidelity Cart Listing" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/Wireframe-Pago-2.png" alt="Wireframe Initial Billing Screen" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/2-2%20Billing.png" alt="High-Fidelity Billing Screen" width="48%"/>
+  <img src="./assets/Wireframe-Pago-2.png" alt="Wireframe Initial Billing Screen" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/2-2%20Billing.png" alt="High-Fidelity Billing Screen" width="48%"/>
 </div>
 
 **Order Receipt and QR Code Evolution**
@@ -329,15 +376,15 @@ Improved Readability: The final design uses clear typography and visual cues (nu
 
 Focus and Speed: For a canteen pickup, the only critical information is the QR code itself. By removing the repetitive date/time/price information, the screen becomes cleaner and the QR code is the sole focus, making the exchange with the vendor faster and error-free. The orange color of the QR code aligns with the app's branding and increases its visual impact.
 <div align="center">
-  <img src="./assets/Wireframe-GenerarComprobante-1.png" alt="Wireframe Initial Receipt Showcase" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/7-2%20Purchase%20Receipt.png" alt="High-Fidelity Receipt Showcase" width="48%"/>
+  <img src="./assets/Wireframe-GenerarComprobante-1.png" alt="Wireframe Initial Receipt Showcase" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/7-2%20Purchase%20Receipt.png" alt="High-Fidelity Receipt Showcase" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/Wireframe-GenerarComprobante-2.png" alt="Wireframe Initial Purchase QRCode" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/7-3%20Purchase%20QR%20Code.png" alt="High-Fidelity Purchase QRCode" width="48%"/>
+  <img src="./assets/Wireframe-GenerarComprobante-2.png" alt="Wireframe Initial Purchase QRCode" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/7-3%20Purchase%20QR%20Code.png" alt="High-Fidelity Purchase QRCode" width="48%"/>
 </div>
 
 ***
@@ -357,29 +404,29 @@ The final visual design aimed to create an app that felt fast, trustworthy, and 
 The evolution shows a clear shift from a purely functional structure to a high-fidelity interface prioritizing user experience, visual branding, and regulatory context (food seals).
 ***
 
-### 7.2. High Definition Interfaces
+### 8.2. High Definition Interfaces
 
-With the functional structure defined by the low-fidelity wireframes and the key user experience issues resolved during the evolution phase (Section 7.1), the project transitioned to the High-Fidelity Interface design. This stage focused on translating the successful elements into a polished, branded, and visually appealing mobile application ready for university student use.
+With the functional structure defined by the low-fidelity wireframes and the key user experience issues resolved during the evolution phase (Section 8.1), the project transitioned to the High-Fidelity Interface design. This stage focused on translating the successful elements into a polished, branded, and visually appealing mobile application ready for university student use.
 
 The final interfaces establish the FoodRush brand identity, leveraging a high-contrast orange-and-dark blue palette to ensure accessibility and highlight primary actions like "Add to Cart" and "Pay." The design heavily emphasizes the speed and clarity required for a successful quick-service food ordering app.
 
 The final interface set includes additional designs for the application's onboarding process, user profile management, and order history tracking, ensuring a comprehensive user experience from first use to regular engagement:
 
 <div align="center">
-  <img src="./assets/2-3%20Payment%20Info.png" alt="Payment Info Screen" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/4%20Orders%20Tab.png" alt="Orders Tab Screen" width="48%"/>
+  <img src="./assets/2-3%20Payment%20Info.png" alt="Payment Info Screen" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/4%20Orders%20Tab.png" alt="Orders Tab Screen" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/5%20Bookmarks%20Tab.png" alt="Bookmarks Tab" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/6%20Notifications%20Tab.png" alt="Notifications Tab" width="48%"/>
+  <img src="./assets/5%20Bookmarks%20Tab.png" alt="Bookmarks Tab" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/6%20Notifications%20Tab.png" alt="Notifications Tab" width="48%"/>
 </div>
 <div align="center">
-  <img src="./assets/8-1%20User%20Profile%20Tab.png" alt="User Profile Tab" width="48%"/>
-  &nbsp; &nbsp; &nbsp;
-  <img src="./assets/8-2%20User%20Personal%20Info.png" alt="User Personal Info" width="48%"/>
+  <img src="./assets/8-1%20User%20Profile%20Tab.png" alt="User Profile Tab" width="48%"/>
+  &nbsp; &nbsp; &nbsp;
+  <img src="./assets/8-2%20User%20Personal%20Info.png" alt="User Personal Info" width="48%"/>
 </div>
 
 **Project Resources**
@@ -390,40 +437,81 @@ A complete set of resources and documentation for the project is available below
 
 
 
-- 📁 **[Hi-Fi Interfaces Workspace – FoodRush (Figma)](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1)**  
-  Final high-fidelity interface designs available in the shared Figma workspace.
-- 📁 **[Hi-Fi Prototype – FoodRush (Figma)](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=14-1464&t=GQMdMsdWHiVXJtkq-1)**  
-  Final high-fidelity prototype available in the shared Figma workspace.
-- 📄 **[Hi-Fi Interfaces – FoodRush (PDF)](docs/hi-fi-interfaces-foodrush.pdf)**  
-  PDF version containing the full set of final interfaces, including visual styles and interaction details.
+- 📁 **[Hi-Fi Interfaces Workspace – FoodRush (Figma)](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1)**  
+  Final high-fidelity interface designs available in the shared Figma workspace.
+- 📁 **[Hi-Fi Prototype – FoodRush (Figma)](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=14-1464&t=GQMdMsdWHiVXJtkq-1)**  
+  Final high-fidelity prototype available in the shared Figma workspace.
+- 📄 **[Hi-Fi Interfaces – FoodRush (PDF)](docs/hi-fi-interfaces-foodrush.pdf)**  
+  PDF version containing the full set of final interfaces, including visual styles and interaction details.
 
 ---
-## 8. Annex
 
-This section provides direct access to all detailed PDF documents organized by project phase and section. Each document contains comprehensive information and visual materials supporting the design process.
+### 8.3. Temáticas de Accesibilidad (Diseño Inclusivo) ⭐️
 
-### 1. Strategy Documents
-- 📄 **[Value Proposition Canvas - FoodRush](docs/value-prop-canvas-foodrush.pdf)**  
-  Detailed analysis of user pains, gains, and our value proposition alignment
-- 📄 **[UX Personas - FoodRush](docs/ux-personas-foodrush.pdf)**  
-  Complete user personas with detailed profiles, needs, and behaviors
-- 📄 **[Benchmarking Analysis - FoodRush](docs/benchmarking-foodrush.pdf)**  
-  Comprehensive competitive analysis and market positioning
+El diseño de la Interfaz de Alta Fidelidad (Superficie) de FoodRush se adhirió a principios de accesibilidad (basados en WCAG) para garantizar que el sistema sea usable por la mayor cantidad de personas posible:
 
-### 2. Scope Documents
-- 📄 **[Customer Journey Map - FoodRush](docs/customer-journey-map-foodrush.pdf)**  
-  Detailed user journey mapping across all touchpoints and interactions
-
-### 3. Structure Documents
-- 📄 **[Sitemap - FoodRush](docs/sitemap-foodrush.pdf)**  
-  Complete information architecture and navigation structure
-
-### 4. Skeleton Documents
-- 📄 **[Low-Fi Wireframes - FoodRush](docs/wireframes-foodrush.pdf)**  
-  Complete set of low-fidelity wireframes for all main interfaces
-
-### 5. Surface Documents
-- 📄 **[Hi-Fi Interfaces - FoodRush](docs/hi-fi-interfaces-foodrush.pdf)**  
-  Final high-fidelity interface designs with visual style and interactions
+| Principio WCAG | Aplicación en FoodRush |
+| :--- | :--- |
+| **Perceptible** | Se utiliza una paleta de colores de **alto contraste** (naranja primario sobre fondos oscuros o blancos) para asegurar la legibilidad, especialmente para usuarios con deficiencias visuales o daltónicos. |
+| **Operable** | La barra de navegación inferior persistente es de gran tamaño y los botones principales son lo suficientemente grandes para una **interacción móvil precisa**, reduciendo errores por toques accidentales. |
+| **Comprensible** | El lenguaje es simple y directo ("Mi Perfil", "Mi Carrito"). Se eliminaron términos ambiguos como "Items", reemplazándolos por nombres de productos claros o agrupaciones naturales. |
+| **Robusto** | La estructura jerárquica de los encabezados de página en el prototipo y la documentación facilitará la lectura por parte de herramientas de asistencia (*screen readers*) si el proyecto avanza a la implementación. |
 
 ---
+
+## 9. Cierre de Proyecto y Conclusión Final ⭐️
+
+Esta sección marca la culminación de la tercera etapa y la **entrega final** del proyecto FoodRush UXD.
+
+Hemos transitado desde la definición del problema (Etapa 1: Estrategia) hasta la producción de un set completo de interfaces de alta fidelidad, un prototipo navegable y la documentación detallada necesaria para la fase de desarrollo.
+
+### 9.1. Logros Clave y Entrega
+
+El proyecto final entrega una solución que resuelve el problema central de las filas en el casino universitario a través de:
+
+* **Eficiencia:** Un flujo de compra optimizado y rápido, validado en la fase de evaluación.
+* **Integración Regulatoria:** Diseño funcional del pago con Edenred y la visualización obligatoria de los Sellos de Advertencia (regulaciones chilenas).
+* **Diseño Centrado en el Usuario:** Interfaces de alta fidelidad que reflejan la iteración de la retroalimentación y los principios de accesibilidad.
+
+### 9.2. Recursos de Desarrollo y Diseño
+
+Los siguientes recursos son la entrega definitiva y completa, incluyendo la documentación de los avances anteriores:
+
+| Recurso | Descripción | Enlace |
+| :--- | :--- | :--- |
+| **Prototipo Navegable** | Versión interactiva final para testeo de flujo de usuario. | [Link a Figma Proto](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=14-1464&t=GQMdMsdWHiVXJtkq-1) |
+| **Interfaces de Producción** | Archivos *source* completos con todos los *assets* y *specs* de diseño. | [Link a Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1) |
+| **Documento Final (PDF)** | Avance final que compila las interfaces de alta fidelidad. | 📄 **[Avances Proyecto FoodRush Final (PDF)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)** |
+
+---
+## 10. Anexos y Documentación ⭐️
+
+Esta sección proporciona acceso directo a todos los documentos detallados, incluyendo los informes de evaluación y los avances de las etapas anteriores.
+
+### 1. Documentos de Evaluación y Trazabilidad (Etapa Final)
+- 📄 **[Informe Completo de Evaluación Heurística (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
+    Informe detallado de la auditoría de usabilidad y resultados SEQ, justificando los ajustes de diseño.
+- 📄 **[Listado de Mejoras Sugeridas (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
+    Documento de trazabilidad que explica los ajustes realizados en base a la retroalimentación en clase.
+
+### 2. Documentos de Estrategia
+- 📄 **[Value Proposition Canvas - FoodRush](docs/value-prop-canvas-foodrush.pdf)**
+    Detailed analysis of user pains, gains, and our value proposition alignment
+- 📄 **[UX Personas - FoodRush](docs/ux-personas-foodrush.pdf)**
+    Complete user personas with detailed profiles, needs, and behaviors
+- 📄 **[Benchmarking Analysis - FoodRush](docs/benchmarking-foodrush.pdf)**
+    Comprehensive competitive analysis and market positioning
+
+### 3. Documentos de Alcance y Estructura
+- 📄 **[Customer Journey Map - FoodRush](docs/customer-journey-map-foodrush.pdf)**
+    Detailed user journey mapping across all touchpoints and interactions
+- 📄 **[Sitemap - FoodRush](docs/sitemap-foodrush.pdf)**
+    Complete information architecture and navigation structure
+- 📄 **[Low-Fi Wireframes - FoodRush](docs/wireframes-foodrush.pdf)**
+    Complete set of low-fidelity wireframes for all main interfaces
+
+### 4. Documentos de Superficie
+- 📄 **[Hi-Fi Interfaces - FoodRush (Avance 1)](docs/Proyecto%20FoodRush%20Avance%201.pdf)**
+    Interfaces de alta fidelidad de la primera entrega, contrastando con la versión final.
+- 📄 **[Hi-Fi Interfaces - FoodRush (Final)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)**
+    Diseño final de interfaces de alta fidelidad con estilos y detalles de interacción.
