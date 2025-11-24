@@ -28,6 +28,7 @@ User Experience Design for FoodRush: a University Canteen Food Ordering Applicat
     - [8.3. Accessibility & Inclusive Design](#83-accessibility--inclusive-design)
 - [9. Project Closure & Final Conclusion](#9-project-closure--final-conclusion)
 - [10. Annexes and Documentation](#10-annexes-and-documentation)
+- [11. Feedback Implementation Report & Change Traceability](#11-feedback-implementation-report--change-traceability)
 
 ---
 
@@ -44,7 +45,7 @@ From the vendor’s perspective, queues cause inefficiency:
 - Limited order throughput during rush hours.
 - Manual payment handling that slows down service.
 
-This highlights a clear opportunity for a platform that improves both the user experience for students and the operational flow for campus food vendors. The app can also be used by faculty members who want to pre-order meals between classes or during meetings, further expanding its utility.
+This highlights a clear opportunity for a platform that improves both the user experience for students and the operational flow for campus food vendors. The app can also be used by faculty members who[...]
 
 ### 1.2. **Our Solution**
 
@@ -71,8 +72,8 @@ Our goal is to make food ordering as fast and seamless as possible:
 This allows students to manage their meals efficiently — grab their food, enjoy it, and get back to their activities without stress or delay.
 
 
-### 1.3. **FoodRush**
-Food Rush is more than a cafeteria app — it’s a scalable platform for smart food ordering. By digitizing the cafeteria experience, it reduces operational bottlenecks and empowers students to make the most of their time.
+### 1.3 **FoodRush**
+Food Rush is more than a cafeteria app — it’s a scalable platform for smart food ordering. By digitizing the cafeteria experience, it reduces operational bottlenecks and empowers students to make [...]
 
 Its long-term vision is to become a marketplace for campus-based commerce, connecting local vendors and students through a seamless, cashless experience.
 
@@ -153,26 +154,26 @@ These personas help us design user experiences that truly align with the daily r
 
 ### 3.3. Benchmarking
 
-To design an application that genuinely addresses the needs of university students and campus food vendors, we analyzed existing food delivery and ordering platforms — including both direct competitors and indirect references recognized for their usability, scalability, and user experience.
+To design an application that genuinely addresses the needs of university students and campus food vendors, we analyzed existing food delivery and ordering platforms — including both direct competit[...]
 
-The objective was to identify **functional and visual strengths** across similar products, learn from their best practices, and pinpoint opportunities where Food Rush can stand out within the campus ecosystem.
+The objective was to identify **functional and visual strengths** across similar products, learn from their best practices, and pinpoint opportunities where Food Rush can stand out within the campus e[...]
 
 ---
 
 #### Types of platforms analyzed
 
 -  **Direct competitor:**  
-  **PedidosYa** — Although it’s a leading food delivery app in Latin America, it is not tailored to the university environment. It focuses on full delivery services rather than quick on-campus pickup experiences.
+  **PedidosYa** — Although it’s a leading food delivery app in Latin America, it is not tailored to the university environment. It focuses on full delivery services rather than quick on-campus pi[...]
 
 -  **Visual comparison tools:**  
-  **Rappi** and **Uber Eats** — Both platforms provide highly optimized interfaces for browsing and comparing food options quickly. Their order-tracking flows, restaurant categorization, and clean layouts served as valuable references for usability and interaction design.
+  **Rappi** and **Uber Eats** — Both platforms provide highly optimized interfaces for browsing and comparing food options quickly. Their order-tracking flows, restaurant categorization, and clean [...]
 
 -  **Aesthetic references:**  
-  **Rappi** and **PedidosYa** — Both apps inspired the visual direction of Food Rush, particularly their use of vibrant color palettes, rounded UI elements, and iconography that communicates speed and convenience.
+  **Rappi** and **PedidosYa** — Both apps inspired the visual direction of Food Rush, particularly their use of vibrant color palettes, rounded UI elements, and iconography that communicates speed [...]
 
 ---
 
-By combining insights from these platforms, Food Rush aims to deliver a **focused, lightweight, and context-aware experience** — optimized for campus life, where time, simplicity, and accessibility are key.
+By combining insights from these platforms, Food Rush aims to deliver a **focused, lightweight, and context-aware experience** — optimized for campus life, where time, simplicity, and accessibility [...]
 
 
 ![Benchmarking](./assets/Benchmarking.png)
@@ -198,13 +199,13 @@ These stages reflect the complete journey — from first contact to long-term pe
 #### 4.1.1. Decision Stage Interfaces
 
 **Customer Activities**  
-During the **Decision** stage, users actively interact with the app: browsing menus, selecting items, and placing an order. They use features such as product filtering, payment options (including *Edenred*), and real-time notifications when their order is ready.  
+During the **Decision** stage, users actively interact with the app: browsing menus, selecting items, and placing an order. They use features such as product filtering, payment options (including *Ede[...]
 The app interface is designed to minimize waiting times and ensure a fast, reliable pickup experience.
 
 ![Homepage](./assets/1-3%20Homepage.png)
 
 **Customer Goals**  
-Users want to receive their food quickly and conveniently, without wasting time standing in line. For many students and staff members, time efficiency is the primary motivation for using the app. The decision to use Food Rush comes when they perceive it as a faster, smarter alternative to traditional queues.
+Users want to receive their food quickly and conveniently, without wasting time standing in line. For many students and staff members, time efficiency is the primary motivation for using the app. The [...]
 
 ![Successful Purchase](./assets/7-1%20Successful%20Purchase.png)
 
@@ -265,7 +266,7 @@ The structure prioritizes clarity and quick access to key features, ensuring tha
 
 ### 6.1. Low-fidelity wireframes
 
-The wireframes developed serve as an initial approximation of the structure and visual layout of the interfaces tied to FoodRush's core functionalities—specifically, ordering food from university canteens.
+The wireframes developed serve as an initial approximation of the structure and visual layout of the interfaces tied to FoodRush's core functionalities—specifically, ordering food from university ca[...]
 
 Navigation between screens is primarily handled through a persistent top navigation bar, present across all interface screens for seamless user flow.
 
@@ -282,7 +283,7 @@ PDF version of the entire initial wireframe set, covering all main interface scr
 
 ## 7. Evaluation and Adjustments (Final Stage) 
 
-This section documents the design validation process, presenting the results of the heuristic evaluation of the previous version and explicitizing the traceability of changes made in response to the feedback obtained.
+This section documents the design validation process, presenting the results of the heuristic evaluation of the previous version and explicitizing the traceability of changes made in response to the f[...]
 
 ### 7.1. Heuristic Evaluation and SEQ Results
 
@@ -296,7 +297,7 @@ The main task of "Buying Food" yielded an **average SEQ score of 5.2** (on a sca
 | :---: | :---: |
 | 5.2 | Somewhat Easy |
 
-This result indicates that users considered the task "somewhat easy" to complete. The report justification identified key areas for improvement that were addressed in the final version (Section 8.2), including:
+This result indicates that users considered the task "somewhat easy" to complete. The report justification identified key areas for improvement that were addressed in the final version (Section 8.2), [...]
 1.  **Visual Clarity:** Improving the distinction between main buttons and action buttons.
 2.  **Payment Flow:** Optimizing the order and layout of elements on the payment screen.
 3.  **Feedback:** Adding immediate visual confirmations for critical actions (e.g., Add to Cart, Successful Purchase).
@@ -308,16 +309,16 @@ This result indicates that users considered the task "somewhat easy" to complete
 
 ### 7.2. Change Traceability and Feedback
 
-The final version of the project incorporates all improvements suggested by the professor, peer feedback, and teaching assistants. This iteration process ensures that the solution directly addresses the problems identified in the evaluation stages.
+The final version of the project incorporates all improvements suggested by the professor, peer feedback, and teaching assistants. This iteration process ensures that the solution directly addresses t[...]
 
 Below is a summary of the most significant adjustments and their origin:
 
 | Adjustment Area | Iteration Description | Feedback Origin |
 | :--- | :--- | :--- |
 | **Payment Flow (Edenred)** | The payment interface was redesigned to optimize the order of fields (RUT, Dynamic Key) and space usage was resolved, improving readability. | (Peer Feedback) |
-| **Identity and Context** | Irrelevant data (age, biography) was removed from the user profile and the focus was adjusted to the unique functionality (not being a simplified Rappi), emphasizing **localization within UFRO** and the pickup system. | (Professor Suggestions) |
-| **Shopping Experience** | The **order number** and **pickup location** were added to the confirmation/QR screen, eliminating ambiguity about where and what to pick up. Typography sizes were adjusted to prioritize critical information. | (Peer Feedback) |
-| **Interface Usability** | The *Home* and product detail screens were refined, optimizing whitespace and improving the visualization of **Warning Seals**. The use of the favorites button was unified. | (Heuristic Evaluation/Peer Feedback) |
+| **Identity and Context** | Irrelevant data (age, biography) was removed from the user profile and the focus was adjusted to the unique functionality (not being a simplified Rappi), emphasizing **loc[...]
+| **Shopping Experience** | The **order number** and **pickup location** were added to the confirmation/QR screen, eliminating ambiguity about where and what to pick up. Typography sizes were adjusted[...]
+| **Interface Usability** | The *Home* and product detail screens were refined, optimizing whitespace and improving the visualization of **Warning Seals**. The use of the favorites button was unified.[...]
 
 **Complete Traceability Document:**
 - 📄 **[List of Suggested Improvements (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
@@ -329,12 +330,12 @@ Below is a summary of the most significant adjustments and their origin:
 
 ## Interface Evolution Process: Explanations and Key Reasons for Modifications
 
-The interfaces for FoodRush evolved significantly from the initial low-fidelity wireframes to the final high-fidelity prototypes, focusing on streamlining the food ordering process within the university setting. The core reason for most modifications was to simplify navigation, enhance speed, and improve the visual communication of essential food details (like Chilean sellos or seals).
+The interfaces for FoodRush evolved significantly from the initial low-fidelity wireframes to the final high-fidelity prototypes, focusing on streamlining the food ordering process within the universi[...]
 
 
 **Homepage Evolution**
 
-Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quick filter option. This directly addresses student dietary concerns and speed of selection. Visual Appeal: Products now show real images, names, and prices, immediately engaging the user. Bottom Navigation Bar: Solidified the persistent bottom bar for core actions: Pedidos (Orders), Favoritos (Favorites), Home, Notificaciones (Notifications), Mi perfil (My Profile).
+Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quick filter option. This directly addresses student dietary concerns and speed of selection. Visual Appeal: Products now sh[...]
 
 
 <div align="center">
@@ -346,7 +347,7 @@ Categories Filter: Introduced "Todo" (All) and "Sin Sellos" (No Seals) as a quic
 
 **Product Detail Evolution**
 
-Removal of Delivery Time: Since the app focuses on canteen/on-campus ordering, delivery time is often irrelevant or managed through a separate pickup system, so the clock icon was removed for simplicity. Visual Seals: The text "-Sellos Alto en" was replaced with highly visible, standardized seal graphics. Details Section Refinement: The long text list of details was replaced by a concise descriptive line ("Oblea bañada chocolate 29g"), likely pushing extensive nutritional data to a separate, less distracting screen (not shown). Action Button: The black "Agregar al carrito" button was changed to a high-contrast orange button for better visibility and conversion.
+Removal of Delivery Time: Since the app focuses on canteen/on-campus ordering, delivery time is often irrelevant or managed through a separate pickup system, so the clock icon was removed for simplici[...]
 
 <div align="center">
   <img src="./assets/Wireframe-VerProducto-2.png" alt="Wireframe Initial Product Details" width="48%"/>
@@ -356,7 +357,7 @@ Removal of Delivery Time: Since the app focuses on canteen/on-campus ordering, d
 
 **Cart and Checkout Evolution**
 
-Reduced Cognitive Load: The final design acts as a gateway; clicking a button (like "Edenred") likely leads to a separate screen for data entry, rather than cluttering the initial checkout screen with fields for RUT, Clave, etc. This is a common and more secure UX pattern. Branding: Payment options now include recognizable logos, building trust.
+Reduced Cognitive Load: The final design acts as a gateway; clicking a button (like "Edenred") likely leads to a separate screen for data entry, rather than cluttering the initial checkout screen with[...]
 <div align="center">
   <img src="./assets/Wireframe-Pago-1.png" alt="Wireframe Initial Cart Listing" width="48%"/>
   &nbsp; &nbsp; &nbsp;
@@ -371,9 +372,9 @@ Reduced Cognitive Load: The final design acts as a gateway; clicking a button (l
 
 **Order Receipt and QR Code Evolution**
 
-Improved Readability: The final design uses clear typography and visual cues (numbered items, orange price tags) to quickly convey the order summary. Clarity of Action: The button was renamed from the technical "Comprobante" to the user-focused "Generar QR," clearly indicating the next step in the flow (generating the pickup code).
+Improved Readability: The final design uses clear typography and visual cues (numbered items, orange price tags) to quickly convey the order summary. Clarity of Action: The button was renamed from the[...]
 
-Focus and Speed: For a canteen pickup, the only critical information is the QR code itself. By removing the repetitive date/time/price information, the screen becomes cleaner and the QR code is the sole focus, making the exchange with the vendor faster and error-free. The orange color of the QR code aligns with the app's branding and increases its visual impact.
+Focus and Speed: For a canteen pickup, the only critical information is the QR code itself. By removing the repetitive date/time/price information, the screen becomes cleaner and the QR code is the so[...]
 <div align="center">
   <img src="./assets/Wireframe-GenerarComprobante-1.png" alt="Wireframe Initial Receipt Showcase" width="48%"/>
   &nbsp; &nbsp; &nbsp;
@@ -394,9 +395,9 @@ The final visual design aimed to create an app that felt fast, trustworthy, and 
 
  **High-Contrast Orange:** Selected as the primary action color. It is highly visible and evokes energy, speed, and appetite—perfect for a food app.
 
- **Integration of Real-World Constraints (Sellos):** Prioritizing the visual display of Chilean food seals in the product view directly addresses a crucial consumer concern in Chile, making the app more compliant and transparent.
+ **Integration of Real-World Constraints (Sellos):** Prioritizing the visual display of Chilean food seals in the product view directly addresses a crucial consumer concern in Chile, making the app mo[...]
 
- **Simplified Payment Flow:** Moving from an initial flow that exposed sensitive fields (RUT, Clave) on the main payment screen to one that uses large, clean buttons significantly improves security perception and reduces friction.
+ **Simplified Payment Flow:** Moving from an initial flow that exposed sensitive fields (RUT, Clave) on the main payment screen to one that uses large, clean buttons significantly improves security pe[...]
 
  **Exploration and comparison of options:** The design supports informed decisions by providing concrete data and comparative analysis.
 
@@ -405,11 +406,11 @@ The evolution shows a clear shift from a purely functional structure to a high-f
 
 ### 8.2. High Definition Interfaces
 
-With the functional structure defined by the low-fidelity wireframes and the key user experience issues resolved during the evolution phase (Section 8.1), the project transitioned to the High-Fidelity Interface design. This stage focused on translating the successful elements into a polished, branded, and visually appealing mobile application ready for university student use.
+With the functional structure defined by the low-fidelity wireframes and the key user experience issues resolved during the evolution phase (Section 8.1), the project transitioned to the High-Fidelity[...]
 
-The final interfaces establish the FoodRush brand identity, leveraging a high-contrast orange-and-dark blue palette to ensure accessibility and highlight primary actions like "Add to Cart" and "Pay." The design heavily emphasizes the speed and clarity required for a successful quick-service food ordering app.
+The final interfaces establish the FoodRush brand identity, leveraging a high-contrast orange-and-dark blue palette to ensure accessibility and highlight primary actions like "Add to Cart" and "Pay." [...]
 
-The final interface set includes additional designs for the application's onboarding process, user profile management, and order history tracking, ensuring a comprehensive user experience from first use to regular engagement:
+The final interface set includes additional designs for the application's onboarding process, user profile management, and order history tracking, ensuring a comprehensive user experience from first u[...]
 
 <div align="center">
   <img src="./assets/2-3%20Payment%20Info.png" alt="Payment Info Screen" width="48%"/>
@@ -430,7 +431,7 @@ The final interface set includes additional designs for the application's onboar
 
 **Project Resources**
 
-The final high-definition interfaces and navigable prototype encompass the complete user experience for FoodRush. These resources detail the finished visual style, interaction patterns, and comprehensive screen layouts.
+The final high-definition interfaces and navigable prototype encompass the complete user experience for FoodRush. These resources detail the finished visual style, interaction patterns, and comprehens[...]
 
 A complete set of resources and documentation for the project is available below:
 
@@ -450,20 +451,20 @@ A complete set of resources and documentation for the project is available below
 
 ### 8.3. Accessibility & Inclusive Design ⭐️
 
-The High-Fidelity Interface design for **FoodRush** strictly adhered to accessibility principles (based on WCAG guidelines) to ensure the system is usable by the widest possible range of students and faculty. The design decisions were directly influenced by the heuristic analysis findings regarding visibility and consistency.
+The High-Fidelity Interface design for **FoodRush** strictly adhered to accessibility principles (based on WCAG guidelines) to ensure the system is usable by the widest possible range of students and [...]
 
 | WCAG Principle | Application in FoodRush |
 | :--- | :--- |
-| **Perceptible** | **High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility. Crucially, we integrated the **Chilean Nutritional Warning Seals** (*Alto en Azúcares*, etc.) prominently in the product view, ensuring users with dietary restrictions can perceive health information instantly without scrolling. |
-| **Operable** | **Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties, we implemented a persistent, large-target bottom navigation bar. Buttons in the cart (previously inverted) were reordered to standard conventions (- Left / + Right) to prevent interaction errors. |
-| **Understandable** | **Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) with natural language like specific product names or clear quantities. Feedback messages (e.g., "Order Successful") are now immediate and descriptive. |
-| **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. Text resizing is supported by maintaining generous whitespace in the final layout, fixing the clutter issues identified in the early profile screens. |
+| **Perceptible** | **High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility. Crucially, we integrated the **Chilean Nutritional Warn[...]
+| **Operable** | **Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties, we implemented a persistent, large-target bottom navigation bar. Buttons in the cart (pr[...]
+| **Understandable** | **Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) with natural language like specific product names or clear quantities. Fee[...]
+| **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. Text resizing is supported by maintaining genero[...]
 
 ---
 
 ## 9. Project Closure & Final Conclusion ⭐️
 
-This section marks the culmination of Stage 3 and the **final delivery** of the FoodRush UXD project. We have transitioned from abstract problem definition (Strategy) to a fully validated, high-fidelity interactive product (Surface).
+This section marks the culmination of Stage 3 and the **final delivery** of the FoodRush UXD project. We have transitioned from abstract problem definition (Strategy) to a fully validated, high-fideli[...]
 
 ### 9.1. Validation & Heuristic Improvements
 
@@ -474,8 +475,8 @@ To ensure the final design was not just visually appealing but functionally robu
 
 **Key Iterations based on Data:**
 1.  **Navigation Awareness:** The heuristic report noted a lack of active section indicators. The final version now clearly highlights the active tab in the bottom bar (Home/Orders/Profile).
-2.  **Cart Logic:** Evaluation users struggled with the inverted + / - buttons. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
-3.  **Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography"). The final profile is strictly functional, focusing on Payment Methods and Order History.
+2.  **Cart Logic:** Evaluation users struggled with the inverted + / - buttons. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion pr[...]
+3.  **Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography"). The final profile is strictly functional, focusing on Payment Me[...]
 
 ### 9.2. Interface Evolution: Before vs. After
 
@@ -484,7 +485,7 @@ The evolution from *Advance 1* to the *Final Version* represents a shift from a 
 | Feature | ❌ Alpha Version (Advance 1) | ✅ Final Version (Stage 3) |
 | :--- | :--- | :--- |
 | **Onboarding** | Generic "Log In" text buttons with no context. | **Branded Onboarding:** Complete flow with role selection (Client vs. Merchant) and Google integration. |
-| **Visual Identity** | Generic layout, inconsistencies in spacing and button hierarchy. | **FoodRush Branding:** Consistent use of rounded UI cards, shadow depth, and the signature Orange/Blue palette throughout. |
+| **Visual Identity** | Generic layout, inconsistencies in spacing and button hierarchy. | **FoodRush Branding:** Consistent use of rounded UI cards, shadow depth, and the signature Orange/Blue palett[...]
 | **Product Detail** | Text-heavy list of nutritional details. | **Visual & Regulatory Compliance:** Integration of graphical "Warning Seals" and clear "Add to Cart" CTA. |
 | **Payments** | Basic placeholders for card entry. | **Edenred Integration:** A dedicated, secure flow for student benefit cards (Junaeb/Edenred) with optimized input fields. |
 | **Order Tracking** | Static text lists. | **Interactive States:** Clear visual timeline (Receiving -> Preparing -> Ready) using a QR code system for pickup. |
@@ -495,8 +496,8 @@ The FoodRush project is now ready for the development hand-off. The following re
 
 | Resource | Description | Link |
 | :--- | :--- | :--- |
-| **Navigable Prototype** | Final interactive version for user flow testing. | [Link to Figma Proto](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?page-id=223%3A896&node-id=385-1081&viewport=274%2C344%2C0.07&t=GClVA5NGmkFkzhHN-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=385%3A1081) |
-| **Figma Worksapace** | Full source files with assets and design specs. | [Link to Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?node-id=223-896&t=IHMX60HdX5duTUlZ-1) |
+| **Navigable Prototype** | Final interactive version for user flow testing. | [Link to Figma Proto](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?page-id=223%3A896&node[...]
+| **Figma Worksapace** | Full source files with assets and design specs. | [Link to Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?node-id=223-896&t=IHMX60[...]
 | **Final Documentation (PDF)** | Comprehensive compilation of High-Fidelity interfaces. | 📄 **[Final FoodRush Project Advances (PDF)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)** |
 
 ---
@@ -530,3 +531,78 @@ This section provides direct access to all detailed documents, including evaluat
     High-fidelity interfaces from the first delivery.
 - 📄 **[Hi-Fi Interfaces - FoodRush (Advance 2)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)**
     Final High-fidelity interfaces from the last delivery.
+
+---
+
+## 11. Feedback Implementation Report & Change Traceability
+
+This document summarizes the feedback received from the Project Lead (Professor), Teaching Assistants, and Peers during the design reviews. It details the specific changes implemented in the final version of the **FoodRush** interfaces to address every identified issue.
+
+### 11.1. Feedback Summary
+
+The feedback was categorized into four main areas of improvement:
+
+* **Strategic Alignment (Context):** The initial proposal resembled a generic delivery app (like Rappi) too closely. The feedback emphasized the need to ground the app specifically in the university context (UFRO Canteens), focusing on logistics (pickup points), daily menus, and student benefits.
+* **Information Architecture (Content):** Critical information was missing or poorly prioritized, such as pickup locations, order numbers, and nutritional warning seals. Conversely, the user profile contained irrelevant data (Age, Biography).
+* **User Interface (Visuals):** Issues regarding whitespace usage (too much empty space), color contrast (legibility of red on yellow), and low fidelity in payment screens (looking like wireframes).
+* **Interaction Design (Flow):** Confusion in button hierarchy (Login vs. Sign up), counter-intuitive controls (+/- buttons inverted), and lack of feedback in the "Add to Cart" process.
+
+---
+
+### 11.2. Detailed Change Log (Interface Evolution)
+
+The following table explicitly details the "Before" state (Feedback) and the "After" state (Final Solution) for every screen and flow.
+
+#### 11.2.1. Strategy & Core Value
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Context** | "The proposal looks like a simplified Rappi; it needs to be specific to UFRO canteens." | **Redefined Scope:** The app is now strictly a "Pre-order & Pickup" system for University Canteens, not a general delivery service. |
+| **Logistics** | "Where do I buy? Where do I pick up? How long will it take?" | **Pickup Logic:** Added specific "Pickup Location" fields in the Cart and Receipt screens. Added estimated preparation status. |
+| **Catalog** | "Don't just offer basic snacks. Include daily lunches and stock." | **Menu Expansion:** The interface now supports "Daily Menus" with stock indicators and detailed descriptions. |
+
+#### 11.2.2. Onboarding & Login
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Visual Hierarchy** | "Login and Sign-up buttons have the same visual weight." | **Hierarchy Fixed:** Differentiated the buttons. "Login" is now the primary action (filled), and "Sign Up" is secondary (outlined/ghost). |
+| **Readability** | "Red text on yellow background looks weird/hard to read." | **Contrast Adjustment:** Adjusted the color palette to Dark Blue and High-Contrast Orange for better readability and accessibility. |
+| **Value Prop** | "The login screen is too empty; what value does the app offer?" | **Intro Screens:** Added onboarding carousel screens explaining the value proposition before the login form. |
+| **Features** | "Missing Password Reset." | **Added Feature:** Implemented a "Forgot Password" flow. |
+
+#### 11.2.3. Home & Catalog Navigation
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Product Cards** | "Where are the units? Products without stock?" | **Stock Handling:** Added "Out of Stock" visual states and clear unit measurements (e.g., "250g"). |
+| **Layout** | "Footer and Menu need separation; Filter colors are uneven." | **UI Polish:** Added a subtle shadow/stroke to separate the Bottom Navigation Bar. Standardized filter chip colors. |
+| **Loading** | "Missing loading state." | **Feedback:** Added a skeleton loader/spinner animation while data is fetching. |
+
+#### 11.2.4. Product Details
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Layout** | "Too much wasted white space." | **Optimization:** tightened the layout. Moved nutritional seals to a prominent position near the title. |
+| **Relevance** | "Remove 'Ratings' (not useful for canteens)." | **Content Strategy:** Removed the star rating system. Replaced it with **Nutritional Warning Seals** (Sellos) which are mandatory and critical for students. |
+| **Clarity** | "Differentiate 'Add to Cart' from '+/-' units." | **Button Design:** "Add to Cart" is now a wide, high-contrast primary button. Unit selectors are distinct icon buttons. |
+| **Copywriting** | " 'Your Product' sounds like I already bought it." | **Text Update:** Changed headers to be descriptive (e.g., "Product Details") rather than possessive. |
+
+#### 11.2.5. Cart & Payment
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Usability** | "Buttons + and - are reversed (counter-intuitive)." | **Standardization:** Fixed the order: **(-) Left** to decrease, **(+) Right** to increase. |
+| **Information** | "I should see which Canteen I am buying from." | **Transparency:** The Cart header now clearly displays "Pickup at: [Canteen Name]". |
+| **Payment UI** | "Edenred fields are hard to see; Gray boxes look like wireframes." | **High-Fidelity UI:** Redesigned payment cards with real branding (Visa/Edenred logos) and improved input field borders for visibility. |
+| **Functionality** | "Delete item vs. Delete whole cart?" | **Interaction:** Added a clear "Trash" icon for individual items and a "Clear Cart" option. |
+
+#### 11.2.6. Orders & Receipt (Post-Purchase)
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Critical Info** | "How do I know where to go? Missing Order Number." | **Receipt Redesign:** The QR screen now prominently displays the **Order Number** (e.g., #492) and the **Pickup Location**. |
+| **Hierarchy** | "Date/Time are too big compared to the products." | **Visual Balance:** Reduced the size of timestamps. Prioritized the **QR Code** and **Total Price** as the main visual elements. |
+| **Interaction** | "Generate QR... for what?" | **Button Label:** Renamed button to "Show Pickup Code" to clarify intent. Added a way to retrieve the QR from the "Orders" tab history. |
+| **Logic** | "Cancel drink in preparation?" | **Status Logic:** Disabled cancellation once the order status moves to "Preparing" to reflect real kitchen constraints. |
+
+#### 11.2.7. User Profile
+| Area | Feedback / Issue Identified | Implemented Solution |
+| :--- | :--- | :--- |
+| **Data Privacy** | "Age, Job, and Biography are irrelevant for ordering food." | **Simplification:** Removed all social-media-style fields. The profile now only contains **Personal Info (Name/Email)** and **Payment Methods**. |
+| **Edit Mode** | "Too many arrows; Need a pencil icon to edit." | **Iconography:** Replaced generic arrows with standard "Edit Pencil" icons for modifying profile data. |
+
+---
