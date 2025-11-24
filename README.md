@@ -280,48 +280,47 @@ PDF version of the entire initial wireframe set, covering all main interface scr
 
 ---
 
-## 7. Evaluación y Ajustes (Etapa Final) ⭐️
+## 7. Evaluation and Adjustments (Final Stage) ⭐️
 
-Esta sección documenta el proceso de validación del diseño, presentando los resultados de la evaluación heurística de la versión anterior y explicitando la trazabilidad de los cambios realizados en respuesta a la retroalimentación obtenida.
+This section documents the design validation process, presenting the results of the heuristic evaluation of the previous version and explicitizing the traceability of changes made in response to the feedback obtained.
 
-### 7.1. Resultados de Evaluación Heurística y SEQ
+### 7.1. Heuristic Evaluation and SEQ Results
 
-Para validar la versión inicial del prototipo y justificar las modificaciones finales, se realizó una **Evaluación Heurística** y un test de usabilidad para medir la Satisfacción de Experiencia (SEQ).
+To validate the initial version of the prototype and justify the final modifications, a **Heuristic Evaluation** and a usability test were conducted to measure the Single Ease Question (SEQ).
 
-#### **Evaluación SEQ (Satisfacción de Experiencia)**
+#### **SEQ Evaluation (Single Ease Question)**
 
-La tarea principal de "Comprar Comida" arrojó un puntaje **SEQ promedio de 5.2** (en una escala de 1 a 7).
+[cite_start]The main task of "Buying Food" yielded an **average SEQ score of 5.2** (on a scale of 1 to 7)[cite: 1337].
 
-| Puntaje | Percepción |
+| Score | Perception |
 | :---: | :---: |
-| 5.2 | Algo Fácil |
+| 5.2 | Somewhat Easy |
 
-Este resultado indica que los usuarios consideraron la tarea "algo fácil" de completar. La justificación del informe identificó aspectos clave de mejora que se abordaron en la versión final (Sección 8.2), incluyendo:
-1.  **Claridad Visual:** Mejorar la distinción de los botones principales y de acción.
-2.  **Flujo de Pago:** Optimizar el orden y la disposición de los elementos en la pantalla de pago.
-3.  **Retroalimentación:** Agregar confirmaciones visuales inmediatas para acciones críticas (ej. Agregar al Carrito, Compra Exitosa).
+This result indicates that users considered the task "somewhat easy" to complete. The report justification identified key areas for improvement that were addressed in the final version (Section 8.2), including:
+1.  **Visual Clarity:** Improving the distinction between main buttons and action buttons.
+2.  **Payment Flow:** Optimizing the order and layout of elements on the payment screen.
+3.  **Feedback:** Adding immediate visual confirmations for critical actions (e.g., Add to Cart, Successful Purchase).
 
-#### **Documento de Referencia**
-- 📄 **[Informe Completo de Evaluación Heurística (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
+#### **Reference Document**
+- 📄 **[Complete Heuristic Evaluation Report (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
 
 ---
 
-### 7.2. Trazabilidad de Cambios y Retroalimentación
+### 7.2. Change Traceability and Feedback
 
-La versión final del proyecto incorpora la totalidad de las mejoras sugeridas por el profesor, la retroalimentación cruzada y los ayudantes. Este proceso de iteración asegura que la solución aborde directamente los problemas identificados en las etapas de evaluación.
+The final version of the project incorporates all improvements suggested by the professor, peer feedback, and teaching assistants. This iteration process ensures that the solution directly addresses the problems identified in the evaluation stages.
 
-A continuación, se resumen los ajustes más significativos y su origen:
+Below is a summary of the most significant adjustments and their origin:
 
-| Área de Ajuste | Descripción de la Iteración | Origen de la Retroalimentación |
+| Adjustment Area | Iteration Description | Feedback Origin |
 | :--- | :--- | :--- |
-| **Flujo de Pago (Edenred)** | Se rediseñó la interfaz de pago para optimizar el orden de los campos (RUT, Clave Dinámica) y se resolvió el uso de espacio, mejorando la legibilidad. | (Retroalimentación Cruzada) |
-| **Identidad y Contexto** | Se eliminaron datos irrelevantes (edad, biografía) del perfil de usuario y se ajustó el enfoque a la funcionalidad única (no ser un Rappi simplificado), enfatizando la **localización en UFRO** y el sistema de retiro. | (Sugerencias Profesor) |
-| **Experiencia de Compra** | Se agregó el **número de orden** y el **lugar de retiro** en la pantalla de confirmación/QR, eliminando la ambigüedad de dónde y qué retirar. Se ajustaron tamaños de tipografía para priorizar información crítica. | (Retroalimentación Cruzada) |
-| **Usabilidad de la Interfaz** | Se refinó la *Home* y el detalle de producto, optimizando el espacio en blanco y mejorando la visualización de los **Sellos de Advertencia**. Se unificó el uso del botón de favoritos. | (Evaluación Heurística/Cruzada) |
+| **Payment Flow (Edenred)** | [cite_start]The payment interface was redesigned to optimize the order of fields (RUT, Dynamic Key) and space usage was resolved, improving readability[cite: 1393]. | (Peer Feedback) |
+| **Identity and Context** | [cite_start]Irrelevant data (age, biography) was removed from the user profile and the focus was adjusted to the unique functionality (not being a simplified Rappi), emphasizing **localization within UFRO** and the pickup system[cite: 1350, 1412]. | (Professor Suggestions) |
+| **Shopping Experience** | The **order number** and **pickup location** were added to the confirmation/QR screen, eliminating ambiguity about where and what to pick up. [cite_start]Typography sizes were adjusted to prioritize critical information[cite: 1395, 1396]. | (Peer Feedback) |
+| **Interface Usability** | The *Home* and product detail screens were refined, optimizing whitespace and improving the visualization of **Warning Seals**. [cite_start]The use of the favorites button was unified[cite: 1359, 1384, 1417]. | (Heuristic Evaluation/Peer Feedback) |
 
-**Documento de Trazabilidad Completa:**
-- 📄 **[Listado de Mejoras Sugeridas (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
-
+**Complete Traceability Document:**
+- 📄 **[List of Suggested Improvements (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
 ---
 
 ## 8. Surface
@@ -393,13 +392,13 @@ Focus and Speed: For a canteen pickup, the only critical information is the QR c
 
 The final visual design aimed to create an app that felt fast, trustworthy, and easy to use for a student audience needing quick transactions.
 
-✅ **High-Contrast Orange:** Selected as the primary action color. It is highly visible and evokes energy, speed, and appetite—perfect for a food app.
+ **High-Contrast Orange:** Selected as the primary action color. It is highly visible and evokes energy, speed, and appetite—perfect for a food app.
 
-✅ **Integration of Real-World Constraints (Sellos):** Prioritizing the visual display of Chilean food seals in the product view directly addresses a crucial consumer concern in Chile, making the app more compliant and transparent.
+ **Integration of Real-World Constraints (Sellos):** Prioritizing the visual display of Chilean food seals in the product view directly addresses a crucial consumer concern in Chile, making the app more compliant and transparent.
 
-✅ **Simplified Payment Flow:** Moving from an initial flow that exposed sensitive fields (RUT, Clave) on the main payment screen to one that uses large, clean buttons significantly improves security perception and reduces friction.
+ **Simplified Payment Flow:** Moving from an initial flow that exposed sensitive fields (RUT, Clave) on the main payment screen to one that uses large, clean buttons significantly improves security perception and reduces friction.
 
-✅ **Exploration and comparison of options:** The design supports informed decisions by providing concrete data and comparative analysis.
+ **Exploration and comparison of options:** The design supports informed decisions by providing concrete data and comparative analysis.
 
 The evolution shows a clear shift from a purely functional structure to a high-fidelity interface prioritizing user experience, visual branding, and regulatory context (food seals).
 ***
@@ -446,72 +445,86 @@ A complete set of resources and documentation for the project is available below
 
 ---
 
-### 8.3. Temáticas de Accesibilidad (Diseño Inclusivo) ⭐️
+---
 
-El diseño de la Interfaz de Alta Fidelidad (Superficie) de FoodRush se adhirió a principios de accesibilidad (basados en WCAG) para garantizar que el sistema sea usable por la mayor cantidad de personas posible:
+### 8.3. Accessibility & Inclusive Design 
 
-| Principio WCAG | Aplicación en FoodRush |
+The High-Fidelity Interface design for **FoodRush** strictly adhered to accessibility principles (based on WCAG guidelines) to ensure the system is usable by the widest possible range of students and faculty. The design decisions were directly influenced by the heuristic analysis findings regarding visibility and consistency.
+
+| WCAG Principle | Application in FoodRush |
 | :--- | :--- |
-| **Perceptible** | Se utiliza una paleta de colores de **alto contraste** (naranja primario sobre fondos oscuros o blancos) para asegurar la legibilidad, especialmente para usuarios con deficiencias visuales o daltónicos. |
-| **Operable** | La barra de navegación inferior persistente es de gran tamaño y los botones principales son lo suficientemente grandes para una **interacción móvil precisa**, reduciendo errores por toques accidentales. |
-| **Comprensible** | El lenguaje es simple y directo ("Mi Perfil", "Mi Carrito"). Se eliminaron términos ambiguos como "Items", reemplazándolos por nombres de productos claros o agrupaciones naturales. |
-| **Robusto** | La estructura jerárquica de los encabezados de página en el prototipo y la documentación facilitará la lectura por parte de herramientas de asistencia (*screen readers*) si el proyecto avanza a la implementación. |
+| **Perceptible** | [cite_start]**High Contrast & Warning Seals:** We utilized a high-contrast palette (Dark Blue/Vibrant Orange) to ensure text legibility[cite: 1239]. [cite_start]Crucially, we integrated the **Chilean Nutritional Warning Seals** (Alto en Azúcares, etc.) prominently in the product view[cite: 1032], ensuring users with dietary restrictions can perceive health information instantly without scrolling. |
+| **Operable** | [cite_start]**Thumb-Zone Navigation:** Addressing the heuristic finding regarding navigation difficulties [cite: 1290][cite_start], we implemented a persistent, large-target bottom navigation bar[cite: 289]. [cite_start]Buttons in the cart (previously inverted) were reordered to standard conventions ( `-` Left / `+` Right) to prevent interaction errors[cite: 1291]. |
+| **Understandable** | [cite_start]**Clear Terminology:** We replaced ambiguous technical terms like "Items" (found in the Alpha version) [cite: 1250] with natural language like specific product names or clear quantities. Feedback messages (e.g., "Order Successful") are now immediate and descriptive. |
+| **Robust** | **Assistive Technology Ready:** The interface hierarchy (Header -> Content -> Action Button) is structured to be screen-reader friendly. [cite_start]Text resizing is supported by maintaining generous whitespace in the final layout, fixing the clutter issues identified in the early profile screens[cite: 1257]. |
 
 ---
 
-## 9. Cierre de Proyecto y Conclusión Final ⭐️
+## 9. Project Closure & Final Conclusion 
 
-Esta sección marca la culminación de la tercera etapa y la **entrega final** del proyecto FoodRush UXD.
+This section marks the culmination of Stage 3 and the **final delivery** of the FoodRush UXD project. We have transitioned from abstract problem definition (Strategy) to a fully validated, high-fidelity interactive product (Surface).
 
-Hemos transitado desde la definición del problema (Etapa 1: Estrategia) hasta la producción de un set completo de interfaces de alta fidelidad, un prototipo navegable y la documentación detallada necesaria para la fase de desarrollo.
+### 9.1. Validation & Heuristic Improvements
 
-### 9.1. Logros Clave y Entrega
+To ensure the final design was not just visually appealing but functionally robust, we conducted a Heuristic Evaluation using the **Single Ease Question (SEQ)** metric.
 
-El proyecto final entrega una solución que resuelve el problema central de las filas en el casino universitario a través de:
+* [cite_start]**SEQ Score Achieved:** **5.2 / 7.0** (Rated: "Somewhat Easy")[cite: 1409].
+* **Interpretation:** While the core flow was functional, the score highlighted friction points that were meticulously polished in this final version.
 
-* **Eficiencia:** Un flujo de compra optimizado y rápido, validado en la fase de evaluación.
-* **Integración Regulatoria:** Diseño funcional del pago con Edenred y la visualización obligatoria de los Sellos de Advertencia (regulaciones chilenas).
-* **Diseño Centrado en el Usuario:** Interfaces de alta fidelidad que reflejan la iteración de la retroalimentación y los principios de accesibilidad.
+**Key Iterations based on Data:**
+1.  [cite_start]**Navigation Awareness:** The heuristic report noted a lack of active section indicators[cite: 1290]. The final version now clearly highlights the active tab in the bottom bar (Home/Orders/Profile).
+2.  [cite_start]**Cart Logic:** Evaluation users struggled with the inverted `+ / -` buttons[cite: 1275]. The final interface corrected this standard pattern and removed the redundant "Trash" icon, streamlining the deletion process.
+3.  [cite_start]**Information Architecture:** Early feedback indicated that profile screens were cluttered with irrelevant data (like "Biography")[cite: 65]. The final profile is strictly functional, focusing on Payment Methods and Order History.
 
-### 9.2. Recursos de Desarrollo y Diseño
+### 9.2. Interface Evolution: Before vs. After
 
-Los siguientes recursos son la entrega definitiva y completa, incluyendo la documentación de los avances anteriores:
+The evolution from *Advance 1* to the *Final Version* represents a shift from a low-fidelity functional wireframe to a branded, user-centric product.
 
-| Recurso | Descripción | Enlace |
+| Feature |  Alpha Version (Advance 1) |  Final Version (Stage 3) |
 | :--- | :--- | :--- |
-| **Prototipo Navegable** | Versión interactiva final para testeo de flujo de usuario. | [Link a Figma Proto](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=14-1464&t=GQMdMsdWHiVXJtkq-1) |
-| **Interfaces de Producción** | Archivos *source* completos con todos los *assets* y *specs* de diseño. | [Link a Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avance-1-Proyecto?node-id=0-1&t=baXchoLeGoMM5Cs9-1) |
-| **Documento Final (PDF)** | Avance final que compila las interfaces de alta fidelidad. | 📄 **[Avances Proyecto FoodRush Final (PDF)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)** |
+| **Onboarding** | [cite_start]Generic "Log In" text buttons with no context[cite: 75]. | [cite_start]**Branded Onboarding:** Complete flow with role selection (Client vs. Merchant) and Google integration[cite: 284, 418]. |
+| **Visual Identity** | Generic layout, inconsistencies in spacing and button hierarchy. | **FoodRush Branding:** Consistent use of rounded UI cards, shadow depth, and the signature Orange/Blue palette throughout. |
+| **Product Detail** | Text-heavy list of nutritional details. | [cite_start]**Visual & Regulatory Compliance:** Integration of graphical "Warning Seals" [cite: 1032] and clear "Add to Cart" CTA. |
+| **Payments** | Basic placeholders for card entry. | [cite_start]**Edenred Integration:** A dedicated, secure flow for student benefit cards (Junaeb/Edenred) with optimized input fields[cite: 643]. |
+| **Order Tracking** | Static text lists. | [cite_start]**Interactive States:** Clear visual timeline (Receiving -> Preparing -> Ready) using a QR code system for pickup[cite: 655]. |
+
+### 9.3. Final Project Deliverables
+
+The FoodRush project is now ready for the development hand-off. The following resources encompass the complete design system, validated logic, and interactive prototypes.
+
+| Resource | Description | Link |
+| :--- | :--- | :--- |
+| **Navigable Prototype** | Final interactive version for user flow testing. | [Link to Figma Proto](https://www.figma.com/proto/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?page-id=223%3A896&node-id=385-1081&viewport=274%2C344%2C0.07&t=GClVA5NGmkFkzhHN-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=385%3A1081) |
+| **Production Interfaces** | Full source files with assets and design specs. | [Link to Figma Design](https://www.figma.com/design/M46L5Bl5BYqWEArmIUBbKi/Avances-Proyecto-FoodRush?node-id=223-896&t=IHMX60HdX5duTUlZ-1) |
+| **Final Documentation (PDF)** | Comprehensive compilation of High-Fidelity interfaces. | 📄 **[Final FoodRush Project Advances (PDF)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)** |
 
 ---
-## 10. Anexos y Documentación ⭐️
+---
 
-Esta sección proporciona acceso directo a todos los documentos detallados, incluyendo los informes de evaluación y los avances de las etapas anteriores.
+## 10. Annexes and Documentation ⭐️
 
-### 1. Documentos de Evaluación y Trazabilidad (Etapa Final)
-- 📄 **[Informe Completo de Evaluación Heurística (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
-    Informe detallado de la auditoría de usabilidad y resultados SEQ, justificando los ajustes de diseño.
-- 📄 **[Listado de Mejoras Sugeridas (PDF)](docs/Mejoras%20sugeridas%20cruzadas.pdf)**
-    Documento de trazabilidad que explica los ajustes realizados en base a la retroalimentación en clase.
+This section provides direct access to all detailed documents, including evaluation reports and progress from previous stages.
 
-### 2. Documentos de Estrategia
+### 1. Evaluation and Traceability Documents (Final Stage)
+- 📄 **[Complete Heuristic Evaluation Report (PDF)](docs/Taller%20Evaluacio%CC%81n%20Heuri%CC%81stica.pdf)**
+    Detailed report of the usability audit and SEQ results, justifying design adjustments.
+
+### 2. Strategy Documents
 - 📄 **[Value Proposition Canvas - FoodRush](docs/value-prop-canvas-foodrush.pdf)**
-    Detailed analysis of user pains, gains, and our value proposition alignment
+    Detailed analysis of user pains, gains, and our value proposition alignment
 - 📄 **[UX Personas - FoodRush](docs/ux-personas-foodrush.pdf)**
-    Complete user personas with detailed profiles, needs, and behaviors
+    Complete user personas with detailed profiles, needs, and behaviors
 - 📄 **[Benchmarking Analysis - FoodRush](docs/benchmarking-foodrush.pdf)**
-    Comprehensive competitive analysis and market positioning
+    Comprehensive competitive analysis and market positioning
 
-### 3. Documentos de Alcance y Estructura
+### 3. Scope and Structure Documents
 - 📄 **[Customer Journey Map - FoodRush](docs/customer-journey-map-foodrush.pdf)**
-    Detailed user journey mapping across all touchpoints and interactions
+    Detailed user journey mapping across all touchpoints and interactions
 - 📄 **[Sitemap - FoodRush](docs/sitemap-foodrush.pdf)**
-    Complete information architecture and navigation structure
+    Complete information architecture and navigation structure
 - 📄 **[Low-Fi Wireframes - FoodRush](docs/wireframes-foodrush.pdf)**
-    Complete set of low-fidelity wireframes for all main interfaces
+    Complete set of low-fidelity wireframes for all main interfaces
 
-### 4. Documentos de Superficie
-- 📄 **[Hi-Fi Interfaces - FoodRush (Avance 1)](docs/Proyecto%20FoodRush%20Avance%201.pdf)**
-    Interfaces de alta fidelidad de la primera entrega, contrastando con la versión final.
-- 📄 **[Hi-Fi Interfaces - FoodRush (Final)](docs/Avances%20Proyecto%20FoodRush%20Final.pdf)**
-    Diseño final de interfaces de alta fidelidad con estilos y detalles de interacción.
+### 4. Surface Documents
+- 📄 **[Hi-Fi Interfaces - FoodRush (Advance 1)](docs/Proyecto%20FoodRush%20Avance%201.pdf)**
+    High-fidelity interfaces from the first delivery.
